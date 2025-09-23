@@ -1,11 +1,13 @@
 import { FaInstagram, FaBehance, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiZenodo } from "react-icons/si";
+import ScrollFloat from '../components/ScrollFloat';
+import DarkVeil from '../components/DarkVeil';
 
 const socials = [
   { href: "https://www.instagram.com/hiruwa_xx/", icon: <FaInstagram /> },
   { href: "https://www.behance.net/hirusharanaweera", icon: <FaBehance /> },
   { href: "https://github.com/leavingnadir", icon: <FaGithub /> },
-  { href: "https://zenodo.org/me/uploads?q=&f=shared_with_me%3Afalse&l=list&p=1&s=10&sort=newest", icon: <SiZenodo /> },
+  { href: "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Ranaweera%2C%20Hirusha%22&l=list&p=1&s=10&sort=bestmatch", icon: <SiZenodo /> },
   { href: "https://www.linkedin.com/in/hirusha-ranaweera-480a91365/", icon: <FaLinkedin /> },
 ];
 
@@ -14,8 +16,10 @@ const Footer = () => {
     <footer className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden" id="contact">
       <div className="relative z-10 flex flex-col items-center justify-center min-h-[60vh]">
         <h1 className="text-3xl md:text-5xl font-bold text-white text-center leading-tight mb-6">
-          Turn Your <span className="text-purple">Vision </span>Into <span className="text-purple">Reality</span><br />
-          Let’s Build Together!
+          <ScrollFloat animationDuration={2} ease='back.inOut(2)' scrollStart='center center+=50%' scrollEnd='bottom center' stagger={5.5}>
+          Turn Your Vision Into Reality</ScrollFloat>
+          <ScrollFloat animationDuration={2} ease='back.inOut(2)' scrollStart='center center+=20%' scrollEnd='bottom center' stagger={5.5}>
+          Let’s Build Together!</ScrollFloat>
         </h1>
         <p className="text-[#B3B6C6] text-lg md:text-xl text-center mb-10 max-w-2xl">
           Transform your concepts into tangible solutions. I collaborate closely with you to craft designs, apps, or projects that truly reflect your vision.
@@ -45,6 +49,17 @@ const Footer = () => {
 
       <div className="relative z-10 w-full flex justify-center px-8">
         <p className="text-[#B3B6C6] text-sm">Copyright ©2025 Hirusha Ranaweera</p>
+      </div>
+      <div style={{ 
+        width: '100%', 
+        height: '800px',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        zIndex: 1,
+        transform: 'rotate(180deg)',
+      }}>
+        <DarkVeil />
       </div>
     </footer>
   );

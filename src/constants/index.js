@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Cinescope Movie Management System",
+    title: "Cinescope - Movie Management System",
     description:
       "Built a full-stack movie database application using React, Next JS, Tailwind CSS, MongoDB, and ShadCN UI.",
     subDescription: [

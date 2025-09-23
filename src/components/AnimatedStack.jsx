@@ -8,46 +8,45 @@ export default function AnimatedTabsDemo() {
 
       <Tabs defaultValue="frontend" className="w-full">
         {/* Tabs List */}
-        <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 text-4xl mt-4">
+        <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 text-4xl mt-4 rounded-full">
             <TabsTrigger
                 value="frontend"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Frontend
             </TabsTrigger>
             <TabsTrigger
                 value="backend"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Backend
             </TabsTrigger>
             <TabsTrigger
                 value="database"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Database
             </TabsTrigger>
             <TabsTrigger
                 value="languages"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Languages
             </TabsTrigger>
             <TabsTrigger
                 value="libs"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Libs/Tech
             </TabsTrigger>
             <TabsTrigger
                 value="tools"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black"
+                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
             >
                 Tools
             </TabsTrigger>
             </TabsList>
 
-        {/* Tabs Content */}
         <div className="mt-4 p-6">
           <TabsContent value="frontend" className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <TechItem src="/assets/logos/react.svg" name="React.js" />
