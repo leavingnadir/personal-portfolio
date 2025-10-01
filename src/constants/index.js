@@ -155,45 +155,6 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Personal Portfolio",
-    description:
-      "I'm Hirusha Ranaweera — A full stack web developer who builds fast, polished web experiences using lot of technologies.",
-    subDescription: [
-      "Clean, component-driven code with utility-first styling to craft responsive UIs, and use GSAP to bring interactions to life with smooth, performant animations.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/portfolio.PNG",
-    tags: [
-      {
-        id: 1,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Next.js",
-        path: "/assets/logos/nextjs-icon.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 5,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
 ];
 
 export const experiences = [

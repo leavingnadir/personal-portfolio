@@ -3,7 +3,8 @@ import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
-
+import TiltedCard from '../components/TiltedCard';
+  
 const About = () => {
   const grid2Container = useRef();
   return (
@@ -109,6 +110,47 @@ const About = () => {
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />
           </div>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center mt-32">
+        <div className="w-3xl">
+          <h2 className="text-4xl font-bold mb-4">Who Am I?</h2>
+          <p className="text-lg text-gray-400 mb-4">
+            I’m <span className="font-semibold text-purple">Hirusha Ranaweera</span>, 
+            a 1st-year Bsc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaSS Developments,
+            DevOps, Cloud, Security and CyberOps. Originally from Kandy and now living in Malabe.
+          </p>
+          <p className="text-lg text-gray-400 mb-4">
+            I’m exploring modern IT fields including Quantum computing, Blockchain, Web3.0. 
+            Alongside academics, I work as a freelance developer and previously contributed
+            as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the <span className="font-semibold text-purple">founder & CEO </span> of 
+            <a href="https://www.linkedin.com/in/radon-group1/" target="_blank" className="font-semibold text-purple hover:underline"> Radon Group↗</a> and
+            <a href="https://www.facebook.com/profile.php?id=61576164844589" target="_blank" className="font-semibold text-purple hover:underline"> Leaving Nadir↗</a>
+            , initiatives focused on innovation, creativity, and delivering impactful digital projects.
+          </p>
+          <p className="text-lg text-gray-400">
+            I have published two papers on Web3, Blockchain, and DApp development, which allowed
+            me to contribute to the growing discourse on decentralized technologies. With a drive for continuous learning and innovation, my mission
+            is to explore, create, and bring forward new ideas that shape the future of technology in the country.
+          </p>
+        </div>
+
+        <div className="flex justify-center md:justify-end">
+          <TiltedCard
+            imageSrc="/assets/me.png"
+            altText="Hirusha Ranaweera"
+            captionText="Hirusha Ranaweera"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+          />
         </div>
       </div>
     </section>
