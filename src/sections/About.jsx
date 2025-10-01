@@ -3,8 +3,12 @@ import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
+<<<<<<< HEAD
 import TiltedCard from '../components/TiltedCard';
   
+=======
+
+>>>>>>> 68c0d082bd9996b7c3d8d4b0dba4203e48dd9432
 const About = () => {
   const grid2Container = useRef();
   return (
