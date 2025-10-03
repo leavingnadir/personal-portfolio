@@ -155,6 +155,35 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "Redefine Zentry Gaming Clone",
+    description:
+      "Built a visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, 3D hover effects, and engaging video storytelling",
+    subDescription: [
+      "Designed with React, Tailwind CSS, and GSAP to deliver a modern, responsive, and award-winning UI/UX experience.",
+    ],
+    href: "https://redefine-zentry.vercel.app/",
+    logo: "",
+    image: "/assets/projects/zentry.PNG",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  }
 ];
 
 export const experiences = [
