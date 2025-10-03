@@ -29,7 +29,7 @@ const ProjectDetails = ({
             <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
           ))}
           <div className="flex items-center justify-between mt-4">
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-2 sm:gap-3">
               {tags.map((tag) => (
                 <img
                   key={tag.id}
