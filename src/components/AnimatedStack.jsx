@@ -56,29 +56,29 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/react-router.svg" name="React Router" />
             <TechItem src="/assets/logos/three.png" name="Three.js" />
             <TechItem src="/assets/logos/Sass.svg" name="SASS"/>
-            <TechItem src="/assets/logos/vitejs.svg" name="ViteJS"/>
           </TabsContent>
 
           <TabsContent value="backend" className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <TechItem src="/assets/logos/nodejs-icon.svg" name="Node.js" />
-            <TechItem src="/assets/logos/Express.svg" name="Express" />
+            <TechItem src="/assets/logos/expressjs.svg" name="Express" />
             <TechItem src="/assets/logos/Redux.svg" name="Redux" />
             <TechItem src="/assets/logos/GraphQL.svg" name="GraphQL"/>
           </TabsContent>
 
           <TabsContent value="database" className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <TechItem src="/assets/logos/mongodb-icon.svg" name="Mongo DB"/>
-            <TechItem src="/assets/logos/Sanity.svg" name="Sanity"/>
-            <TechItem src="/assets/logos/Kafka.svg" name="Kafka"/>
             <TechItem src="/assets/logos/PostgresSQL.svg" name="PostgresSQL"/>
+            <TechItem src="/assets/logos/neon.svg" name="Neon"/>
+            <TechItem src="/assets/logos/Kafka.svg" name="Kafka"/>
             <TechItem src="/assets/logos/RabbitMQ.svg" name="RabbitMQ"/>
+            <TechItem src="/assets/logos/Sanity.svg" name="Sanity"/>
           </TabsContent>
 
           <TabsContent value="languages" className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <TechItem src="/assets/logos/javascript.svg" name="JavaScript" />
             <TechItem src="/assets/logos/typescript-icon.svg" name="TypeScript" />
             <TechItem src="/assets/logos/java.svg" name="JAVA" />
-            <TechItem src="/assets/logos/solidity.svg" name="Solidity" />
+            <TechItem src="/assets/logos/Solidity.svg" name="Solidity" />
             <TechItem src="/assets/logos/csharp.svg" name="C#" />
             <TechItem src="/assets/logos/Bash.svg" name="Bash" />
           </TabsContent>
@@ -99,14 +99,15 @@ export default function AnimatedTabsDemo() {
           </TabsContent>
 
           <TabsContent value="tools" className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <TechItem src="/assets/logos/react-query.svg" name="React Query"/>
+            <TechItem src="/assets/logos/Jest.svg" name="Jest"/>
+            <TechItem src="/assets/logos/faker.svg" name="Faker"/>
             <TechItem src="/assets/logos/zustand.svg" name="Zustand"/>
             <TechItem src="/assets/logos/better-auth.svg" name="Better Auth"/>
             <TechItem src="/assets/logos/shadcn.svg" name="ShadcnUI"/>
             <TechItem src="/assets/logos/puter.svg" name="Puter"/>
             <TechItem src="/assets/logos/Ubuntu.svg" name="Ubuntu VM"/>
-            <TechItem src="/assets/logos/visualstudiocode.svg" name="VS Code"/>
             <TechItem src="/assets/logos/vercel.png" name="Vercel"/>
-            <TechItem src="/assets/logos/github2.svg" name="Github"/>
           </TabsContent>
         </div>
       </Tabs>
