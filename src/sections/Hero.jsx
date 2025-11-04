@@ -3,11 +3,13 @@ import TextType from '../components/TextType';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 overflow-hidden isolate">
-      <div className="absolute inset-0 -z-10">
-        
-        <div className="absolute inset-0 bg-black/80"></div>
-      </div>
+    <section
+      className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/assets/download.jpg')",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/85 z-0"></div>
 
       <div className="relative z-10 text-white max-w-3xl mt-[-4rem]">
         <p className="text-[clamp(0.85rem,1.5vw,1rem)] text-neutral-300 font-mono leading-relaxed">
@@ -19,7 +21,7 @@ export default function Hero() {
         <h3 className="text-2xl font-light mb-6">
           I'm Hirusha Ranaweera
         </h3>
-        <TextType className="text-2xl md:text-3xl font-semibold"
+        <TextType className="text-2xl md:text-3xl font-semibold text-blue-500"
           text={["I do DevOps", "I do Web Development", "I do UI/UX Design"]}
           typingSpeed={75}
           pauseDuration={1500}
