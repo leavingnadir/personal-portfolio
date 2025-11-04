@@ -11,37 +11,37 @@ export default function AnimatedTabsDemo() {
         <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 text-4xl mt-4 rounded-full">
             <TabsTrigger
                 value="frontend"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 Frontend
             </TabsTrigger>
             <TabsTrigger
                 value="backend"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 Backend
             </TabsTrigger>
             <TabsTrigger
                 value="database"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 Database
             </TabsTrigger>
             <TabsTrigger
                 value="languages"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 Languages
             </TabsTrigger>
             <TabsTrigger
                 value="DevOps"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 DevOps & Cloud
             </TabsTrigger>
             <TabsTrigger
                 value="tools"
-                className="bg-white text-black data-[state=active]:bg-purple-500 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
             >
                 Libs & Tools
             </TabsTrigger>
@@ -56,6 +56,7 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/react-router.svg" name="React Router" />
             <TechItem src="/assets/logos/three.png" name="Three.js" />
             <TechItem src="/assets/logos/Sass.svg" name="SASS"/>
+            <TechItem src="/assets/logos/angular-icon.svg" name="Angular"/>
           </TabsContent>
 
           <TabsContent value="backend" className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -78,7 +79,7 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/javascript.svg" name="JavaScript" />
             <TechItem src="/assets/logos/typescript-icon.svg" name="TypeScript" />
             <TechItem src="/assets/logos/java.svg" name="JAVA" />
-            <TechItem src="/assets/logos/Solidity.svg" name="Solidity" />
+            <TechItem src="/assets/logos/gopher.svg" name="Golang" />
             <TechItem src="/assets/logos/csharp.svg" name="C#" />
             <TechItem src="/assets/logos/Bash.svg" name="Bash" />
           </TabsContent>

@@ -1,7 +1,5 @@
 import { FaInstagram, FaBehance, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiZenodo } from "react-icons/si";
-import ScrollFloat from '../components/ScrollFloat';
-import DarkVeil from '../components/DarkVeil';
 
 const socials = [
   { href: "https://www.instagram.com/hiruwa_xx/", icon: <FaInstagram /> },
@@ -13,20 +11,20 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden" id="contact">
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-[60vh]">
+    <footer className="relative w-full flex flex-col justify-center items-center overflow-hidden" id="contact">
+      <div className="relative z-10 flex flex-col items-center justify-center ">
         <h1 className="text-3xl md:text-5xl font-bold text-white text-center leading-tight mb-6">
-          <ScrollFloat animationDuration={2} ease='back.inOut(2)' scrollStart='center center+=50%' scrollEnd='bottom center' stagger={5.5}>
-          Turn Your Vision Into Reality</ScrollFloat>
-          <ScrollFloat animationDuration={2} ease='back.inOut(2)' scrollStart='center center+=20%' scrollEnd='bottom center' stagger={5.5}>
-          Let’s Build Together!</ScrollFloat>
+          Turn Your Vision Into Reality<br />
+          Let’s Build Together!
         </h1>
         <p className="text-[#B3B6C6] text-lg md:text-xl text-center mb-10 max-w-2xl">
-          Transform your concepts into tangible solutions. I collaborate closely with you to craft designs, apps, or projects that truly reflect your vision.
+          Transform your concepts into tangible solutions. <br />
+          I collaborate closely with you to craft designs, apps,<br />
+           or projects that truly reflect your vision.
         </p>
         <a
           href="mailto:hello.hirusharanaweera@gmail.com"
-          className="inline-flex items-center justify-center px-6 py-4 rounded-xl border border-[#23243a] bg-[#181A2A] text-white text-lg font-medium shadow-lg hover:bg-[#23243a] transition mb-16"
+          className="inline-flex items-center justify-center px-6 py-4 rounded-xl border border-[#23243a] bg-blue-500 text-white text-lg font-medium shadow-lg hover:bg-blue-600 mb-16"
         >
           Contact Me Now
           <span className="ml-2 text-xl">↗</span>
@@ -47,19 +45,8 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="relative z-10 w-full flex justify-center px-8">
+      <div className="relative z-10 w-full flex justify-center px-8 mb-10">
         <p className="text-[#B3B6C6] text-sm">Copyright ©2025 Hirusha Ranaweera</p>
-      </div>
-      <div style={{ 
-        width: '100%', 
-        height: '800px',
-        position: 'absolute',
-        bottom: 0,
-        left: 0,
-        zIndex: 1,
-        transform: 'rotate(180deg)',
-      }}>
-        <DarkVeil />
       </div>
     </footer>
   );

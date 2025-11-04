@@ -189,7 +189,7 @@ export const myProjects = [
 export const experiences = [
   {
     title: "Graphic & Web Developer ",
-    job: "Upwork",
+    job: "Upwork & Behance",
     date: "2020-Present",
     contents: [
       "➤ Built 8+ full-scale websites, handling everything from wireframes to deployment for diverse client requirements.",

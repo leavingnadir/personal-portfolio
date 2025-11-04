@@ -89,7 +89,7 @@ const About = () => {
     </div>
 
     {/* Grid 4 */}
-    <div className="grid-special-color grid-4 flex flex-col items-center justify-center gap-4 text-center p-6">
+    <div className="grid-bg-b-stone-200 grid-4 flex flex-col items-center justify-center gap-4 text-center p-6">
       <p className="headtext text-lg sm:text-xl">
         Do you want to start a project together?
       </p>
@@ -118,7 +118,7 @@ const About = () => {
         Who Am I?
       </h2>
       <p className="text-base sm:text-lg text-gray-400 mb-4 text-center md:text-left max-w-[600px] md:max-w-none mx-auto md:mx-0">
-        I’m <span className="font-semibold text-purple">Hirusha Ranaweera</span>, 
+        I’m <span className="font-semibold text-blue-400">Hirusha Ranaweera</span>, 
         a 1st-year Bsc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,
         DevOps, Cloud, Security and CyberOps. Originally from Kandy and now living in Malabe.
       </p>
@@ -126,11 +126,11 @@ const About = () => {
         I’m exploring modern IT fields including Quantum computing, Blockchain, Web3.0. 
         Alongside academics, I work as a freelance developer and previously contributed
         as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the{" "}
-        <span className="font-semibold text-purple">founder & CEO </span> of{" "}
+        <span className="font-semibold text-blue-400">founder & CEO </span> of{" "}
         <a
           href="https://www.linkedin.com/in/radon-group1/"
           target="_blank"
-          className="font-semibold text-purple hover:underline"
+          className="font-semibold text-blue-400 hover:underline"
         >
           Radon Group ↗
         </a>{" "}
@@ -138,7 +138,7 @@ const About = () => {
         <a
           href="https://www.facebook.com/profile.php?id=61576164844589"
           target="_blank"
-          className="font-semibold text-purple hover:underline"
+          className="font-semibold text-blue-400 hover:underline"
         >
           Leaving Nadir ↗
         </a>

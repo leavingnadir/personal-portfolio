@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import Experiences from "./sections/Experiences";
 import Footer from './sections/Footer';
 import Stack from "./sections/Stack";
+import Publications from "./sections/Publication";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Projects />
       <Stack />
       <Experiences />
+      <Publications />
       <Footer/>
     </>
   );
