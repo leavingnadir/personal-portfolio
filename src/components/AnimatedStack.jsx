@@ -70,9 +70,6 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/mongodb-icon.svg" name="Mongo DB"/>
             <TechItem src="/assets/logos/PostgresSQL.svg" name="PostgresSQL"/>
             <TechItem src="/assets/logos/neon.svg" name="Neon"/>
-            <TechItem src="/assets/logos/Kafka.svg" name="Kafka"/>
-            <TechItem src="/assets/logos/RabbitMQ.svg" name="RabbitMQ"/>
-            <TechItem src="/assets/logos/Sanity.svg" name="Sanity"/>
           </TabsContent>
 
           <TabsContent value="languages" className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -96,6 +93,8 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/Prometheus.svg" name="Prometheus"/>
             <TechItem src="/assets/logos/git.svg" name="Git"/>
             <TechItem src="/assets/logos/Postman.svg" name="Postman"/>
+            <TechItem src="/assets/logos/Kafka.svg" name="Kafka"/>
+            <TechItem src="/assets/logos/RabbitMQ.svg" name="RabbitMQ"/>
             <TechItem src="/assets/logos/AWS.svg" name="AWS"/>
           </TabsContent>
 

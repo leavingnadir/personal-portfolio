@@ -126,22 +126,14 @@ const About = () => {
         I’m exploring modern IT fields including Quantum computing, Blockchain, Web3.0. 
         Alongside academics, I work as a freelance developer and previously contributed
         as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the{" "}
-        <span className="font-semibold text-blue-400">founder & CEO </span> of{" "}
+        <span className="font-semibold text-blue-400">founder</span> of{" "}
         <a
-          href="https://www.linkedin.com/in/radon-group1/"
+          href="https://www.linkedin.com/company/vimana-labs/"
           target="_blank"
           className="font-semibold text-blue-400 hover:underline"
         >
-          Radon Group ↗
+          Vimana Labs ↗
         </a>{" "}
-        and{" "}
-        <a
-          href="https://www.facebook.com/profile.php?id=61576164844589"
-          target="_blank"
-          className="font-semibold text-blue-400 hover:underline"
-        >
-          Leaving Nadir ↗
-        </a>
         .
       </p>
       <p className="text-base sm:text-lg text-gray-400 text-center md:text-left">
