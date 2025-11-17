@@ -188,43 +188,42 @@ export const myProjects = [
 
 export const experiences = [
   {
-    title: "Graphic & Web Developer ",
+    title: "Graphic & Web Developer",
     job: "Upwork & Behance",
-    date: "2020-Present",
+    date: "JUN 2020 - DEC 2024",
     contents: [
-      "➤ Built 8+ full-scale websites, handling everything from wireframes to deployment for diverse client requirements.",
-      "➤ Delivered 200+ professional design materials including posters, graphics, and digital assets. Specialized in graphic design, motion graphics, web design, and web development, ensuring high-quality deliverables.",
-      "➤ Adapted to client needs quickly while maintaining consistency and creativity across projects.",
+      "Built 8+ full-scale websites, handling everything from wireframes to deployment for diverse client requirements.",
+      "Delivered 200+ professional design materials including posters, graphics, and digital assets. Specialized in graphic design, motion graphics, web design, and web development, ensuring high-quality deliverables.",
+      "Adapted to client needs quickly while maintaining consistency and creativity across projects.",
     ],
   },
   {
     title: "Video Specialist",
     job: "ZoomOut Studio",
-    date: "2023-2024",
+    date: "SEP 2023 - OCT 2024",
     contents: [
-      "➤ Edited 2 original short films from concept to final cut, including video editing, sound design, and light balance.",
-      "➤ Designed film posters and promotional visuals for marketing and distribution.",
-      "➤ Ensured storytelling and visual quality were aligned with the director’s vision.",
-      "➤ Collaborated with the production team to deliver polished, cinematic outputs.",
+      "Edited 2 original short films from concept to final cut, including video editing, sound design, and light balance.",
+      "Designed film posters and promotional visuals for marketing and distribution.",
+      "Ensured storytelling and visual quality were aligned with the director’s vision.",
+      "Collaborated with the production team to deliver polished, cinematic outputs.",
     ],
   },
   {
     title: "Graphic Designer",
     job: "Chasm Clothing",
-    date: "2024-2025",
+    date: "DEC 2024 - APR 2025",
     contents: [
-      "➤ Produced promotional videos and original graphics for social media campaigns and seasonal collections.",
-      "➤ Designed digital ads, posters, and brand identity assets to support marketing strategies.",
-      "➤ Contributed to boosting brand presence during Chasm Clothing’s initial launch and island-wide expansion in Sri Lanka. Collaborated with the team to maintain design consistency across multiple platforms.",
+      "Produced promotional videos and original graphics for social media campaigns and seasonal collections.",
+      "Designed digital ads, posters, and brand identity assets to support marketing strategies.",
     ],
   },
   {
     title: "Web Developer",
     job: "Chasm Clothing",
-    date: "2025-Present",
+    date: "APR 2025 - OCT 2025",
     contents: [
-      "➤ Designed and developed the official Chasm Clothing website, ensuring a modern, responsive, and user-friendly interface.",
-      "➤ Focused on seamless navigation and performance optimization for better customer engagement.",
+      "Designed and developed the official Chasm Clothing website, ensuring a modern, responsive, and user-friendly interface.",
+      "Focused on seamless navigation and performance optimization for better customer engagement.",
     ],
   },
 ];

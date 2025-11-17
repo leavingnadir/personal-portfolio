@@ -1,22 +1,18 @@
-import { useRef } from "react";
-import Card from "../components/Card";
-import { Globe } from "../components/globe";
-import CopyEmailButton from "../components/CopyEmailButton";
-import { Frameworks } from "../components/Frameworks";
+//import { useRef } from "react";
+//import Card from "../components/Card";
+//import { Globe } from "../components/globe";
+//import CopyEmailButton from "../components/CopyEmailButton";
+//import { Frameworks } from "../components/Frameworks";
 import TiltedCard from '../components/TiltedCard';
   
 const About = () => {
-  const grid2Container = useRef();
+  //const grid2Container = useRef();
   return (
-    <section
-  className="px-4 md:px-8 py-16 md:py-24 mx-auto max-w-[1280px]"
-  id="about"
->
-  <h2 className="text-heading text-center md:text-left">About Me</h2>
+  <section className="px-4 md:px-8 py-16 md:py-24 mx-auto max-w-[1280px]" id="about">
+    <h2 className="text-heading text-center md:text-left">About Me</h2>
 
-  {/* First Grid Section */}
+  {/* First Grid Section
   <div className="grid grid-cols-1 gap-6 md:gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-8 md:mt-12">
-    {/* Grid 1 */}
     <div className="relative flex items-end justify-center md:justify-start grid-default-color grid-1 p-4">
       <img
         src="assets/coding-pov.png"
@@ -32,7 +28,6 @@ const About = () => {
       <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/3 bg-gradient-to-t from-indigo" />
     </div>
 
-    {/* Grid 2 */}
     <div className="grid-default-color grid-2">
       <div
         ref={grid2Container}
@@ -41,7 +36,6 @@ const About = () => {
         <p className=" sm:flex items-end text-2xl sm:text-5xl text-gray-500">
           CODE IS CRAFT
         </p>
-        {/* Cards shrink on mobile */}
         <Card
           style={{ rotate: "75deg", top: "20%", left: "20%" }}
           text="REST APIs"
@@ -75,7 +69,6 @@ const About = () => {
       </div>
     </div>
 
-    {/* Grid 3 */}
     <div className="grid-black-color grid-3 flex flex-col justify-center p-4 relative min-h-[250px] md:min-h-0">
       <div className="z-10 mb-35 md:w-[50%]">
         <p className="headtext text-lg sm:text-xl mb-2">Time Zone</p>
@@ -88,7 +81,6 @@ const About = () => {
       </figure>
     </div>
 
-    {/* Grid 4 */}
     <div className="grid-bg-b-stone-200 grid-4 flex flex-col items-center justify-center gap-4 text-center p-6">
       <p className="headtext text-lg sm:text-xl">
         Do you want to start a project together?
@@ -96,7 +88,6 @@ const About = () => {
       <CopyEmailButton />
     </div>
 
-    {/* Grid 5 */}
     <div className="grid-default-color grid-5 relative flex flex-col min-h-[300px] md:min-h-0 p-4">
       <div className="z-10 text-center md:text-left mb-4 md:mb-0 relative">
         <p className="headText text-lg sm:text-xl mb-2">Tech Stack</p>
@@ -109,14 +100,11 @@ const About = () => {
         <Frameworks />
       </div>
     </div>
-  </div>
+  </div>*/}
 
   {/* Who Am I Section */}
-  <div className="max-w-[95%] lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mt-16 md:mt-32 px-2 sm:px-4">
+  <div className="max-w-[95%] lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center md:mt-32 px-2 sm:px-4">
     <div className="w-full lg:w-3xl">
-      <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center md:text-left">
-        Who Am I?
-      </h2>
       <p className="text-base sm:text-lg text-gray-400 mb-4 text-center md:text-left max-w-[600px] md:max-w-none mx-auto md:mx-0">
         I’m <span className="font-semibold text-blue-400">Hirusha Ranaweera</span>, 
         a 1st-year Bsc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,

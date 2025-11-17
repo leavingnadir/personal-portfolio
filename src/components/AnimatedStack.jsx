@@ -84,10 +84,7 @@ export default function AnimatedTabsDemo() {
           <TabsContent value="DevOps" className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <TechItem src="/assets/logos/Docker.svg" name="Docker"/>
             <TechItem src="/assets/logos/Kubernetes.svg" name="Kubernetes"/>
-            <TechItem src="/assets/logos/Helm.svg" name="Helm"/>
             <TechItem src="/assets/logos/Terraform.svg" name="Terraform"/>
-            <TechItem src="/assets/logos/Ansible.svg" name="Ansible"/>
-            <TechItem src="/assets/logos/Pulumi.svg" name="Pulumi"/>
             <TechItem src="/assets/logos/Jenkins.svg" name="Jenkins"/>
             <TechItem src="/assets/logos/Grafana.svg" name="Grafana"/>
             <TechItem src="/assets/logos/Prometheus.svg" name="Prometheus"/>
@@ -105,9 +102,7 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/zustand.svg" name="Zustand"/>
             <TechItem src="/assets/logos/better-auth.svg" name="Better Auth"/>
             <TechItem src="/assets/logos/shadcn.svg" name="ShadcnUI"/>
-            <TechItem src="/assets/logos/puter.svg" name="Puter"/>
             <TechItem src="/assets/logos/Ubuntu.svg" name="Ubuntu VM"/>
-            <TechItem src="/assets/logos/vercel.png" name="Vercel"/>
           </TabsContent>
         </div>
       </Tabs>
