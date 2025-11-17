@@ -6,10 +6,10 @@ export default function Hero() {
     <section
       className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/assets/download.jpg')",
+        backgroundImage: "url('/assets/1744.gif')",
       }}
     >
-      <div className="absolute inset-0 bg-black/85 z-0"></div>
+      <div className="absolute inset-0 bg-black/80 z-0"></div>
 
       <div className="relative z-10 text-white max-w-3xl mt-[-4rem]">
         <p className="text-[clamp(1rem,1.5vw,5rem)] text-neutral-300 font-mono leading-relaxed">
@@ -22,7 +22,7 @@ export default function Hero() {
           I'm Hirusha Ranaweera
         </h3>
         <TextType className="text-3xl md:text-3xl font-semibold text-blue-500"
-          text={["I do DevOps", "I do SaSS Dev", "I do UI/UX Design", "I do Cloud", "I do CyberOps"]}
+          text={["I do DevOps", "I do SaSS Dev", "I do Cloud", "I do CyberOps"]}
           typingSpeed={75}
           pauseDuration={1500}
           showCursor={true}
