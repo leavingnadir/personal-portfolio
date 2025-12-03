@@ -21,7 +21,7 @@ export default function Hero() {
         <h3 className="text-3xl font-light mb-6">
           I'm Hirusha Ranaweera
         </h3>
-        <TextType className="text-3xl md:text-3xl font-semibold text-blue-500"
+        <TextType className="text-3xl md:text-3xl font-semibold text-rose-500"
           text={["I do DevOps", "I do SaSS Dev", "I do Cloud", "I do CyberOps"]}
           typingSpeed={75}
           pauseDuration={1500}

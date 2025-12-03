@@ -106,7 +106,7 @@ const About = () => {
   <div className="max-w-[95%] lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center md:mt-32 px-2 sm:px-4">
     <div className="w-full lg:w-3xl">
       <p className="text-base sm:text-lg text-gray-400 mb-4 text-center md:text-left max-w-[600px] md:max-w-none mx-auto md:mx-0">
-        I’m <span className="font-semibold text-blue-400">Hirusha Ranaweera</span>, 
+        I’m <span className="font-semibold text-rose-400">Hirusha Ranaweera</span>, 
         a 1st-year Bsc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,
         DevOps, Cloud, Security and CyberOps. Originally from Kandy and now living in Malabe.
       </p>
@@ -114,11 +114,11 @@ const About = () => {
         I’m exploring modern IT fields including Quantum computing, Blockchain, Web3.0. 
         Alongside academics, I work as a freelance developer and previously contributed
         as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the{" "}
-        <span className="font-semibold text-blue-400">founder</span> of{" "}
+        <span className="font-semibold text-rose-400">founder</span> of{" "}
         <a
           href="https://www.linkedin.com/company/vimana-labs/"
           target="_blank"
-          className="font-semibold text-blue-400 hover:underline"
+          className="font-semibold text-rose-400 hover:underline"
         >
           Vimana Labs ↗
         </a>{" "}

@@ -40,7 +40,7 @@ const Publications = () => {
                 {pub.platform} · {pub.date}
               </p>
               <p className="text-gray-300 text-sm">{pub.description}</p>
-              <span className="inline-block mt-3 text-blue-400 font-medium text-sm hover:underline">
+              <span className="inline-block mt-3  text-rose-500 font-medium text-sm hover:underline">
                 Show publication →
               </span>
             </a>

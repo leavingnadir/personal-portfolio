@@ -8,40 +8,40 @@ export default function AnimatedTabsDemo() {
 
       <Tabs defaultValue="frontend" className="w-full">
         {/* Tabs List */}
-        <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 text-4xl mt-4 rounded-full">
+        <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 text-4xl mt-4 gap-5">
             <TabsTrigger
                 value="frontend"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 Frontend
             </TabsTrigger>
             <TabsTrigger
                 value="backend"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black  data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 Backend
             </TabsTrigger>
             <TabsTrigger
                 value="database"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black  data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 Database
             </TabsTrigger>
             <TabsTrigger
                 value="languages"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black  data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 Languages
             </TabsTrigger>
             <TabsTrigger
                 value="DevOps"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black  data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 DevOps & Cloud
             </TabsTrigger>
             <TabsTrigger
                 value="tools"
-                className="bg-white text-black data-[state=active]:bg-blue-400 data-[state=active]:text-black rounded-full"
+                className="bg-white text-black  data-[state=active]:bg-rose-500 data-[state=active]:text-black text-lg"
             >
                 Libs & Tools
             </TabsTrigger>

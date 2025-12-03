@@ -16,7 +16,7 @@ const WorkExperience = () => {
                 <h3 className="text-xl md:text-2xl font-semibold">{exp.title}</h3>
                 <span className="text-gray-400 text-sm">{exp.date}</span>
               </div>
-              <p className="text-blue-400 font-medium mb-3">{exp.job}</p>
+              <p className="text-rose-500 font-medium mb-3">{exp.job}</p>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-sm md:text-base">
                 {exp.contents.map((task, index) => (
                   <li key={index}>{task}</li>
