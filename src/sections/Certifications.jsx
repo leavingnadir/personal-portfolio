@@ -5,6 +5,7 @@ const certifications = [
   { img: "./assets/certifications/ezgif-2-f45f608060.png" },
   { img: "./assets/certifications/I2CS_1.png" },
   { img: "./assets/certifications/networking-basics.png" },
+  { img: "./assets/certifications/ethical-hacker.png" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
   { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
