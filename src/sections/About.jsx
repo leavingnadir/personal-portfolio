@@ -116,11 +116,11 @@ const About = () => {
         as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the{" "}
         <span className="font-semibold text-rose-400">founder</span> of{" "}
         <a
-          href="https://www.linkedin.com/company/vimana-labs/"
+          href="https://www.linkedin.com/company/leaving-nadir/"
           target="_blank"
           className="font-semibold text-rose-400 hover:underline"
         >
-          Vimana Labs ↗
+          Leaving Nadir LLP ↗
         </a>{" "}
         .
       </p>
