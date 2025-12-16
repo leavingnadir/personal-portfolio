@@ -9,7 +9,7 @@ export default function Hero() {
         backgroundImage: "url('/assets/1744.gif')",
       }}
     >
-      <div className="absolute inset-0 bg-black/80 z-0"></div>
+      <div className="absolute inset-0 bg-black/70 z-0"></div>
 
       <div className="relative z-10 text-white max-w-3xl mt-[-4rem]">
         <p className="text-[clamp(1rem,1.5vw,5rem)] text-neutral-300 font-mono leading-relaxed">
@@ -22,7 +22,7 @@ export default function Hero() {
           I'm Hirusha Ranaweera
         </h3>
         <TextType className="text-3xl md:text-3xl font-semibold text-rose-500"
-          text={["I do DevOps", "I do SaSS Dev", "I do Cloud", "I do CyberOps"]}
+          text={["I do Full-Stack Dev", "I do DevSecOps", "I do Cloud Sec","I do Pen-Testing"]}
           typingSpeed={75}
           pauseDuration={1500}
           showCursor={true}
