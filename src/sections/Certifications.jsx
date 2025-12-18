@@ -8,6 +8,8 @@ const certifications = [
   { img: "./assets/certifications/ethical-hacker.png" },
   { img: "./assets/certifications/network-defense.png" },
   { img: "./assets/certifications/endpoint-security.png" },
+  { img: "./assets/certifications/ccep.png" },
+  { img: "./assets/certifications/CPPS-badge.png" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
   { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
