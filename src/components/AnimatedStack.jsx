@@ -77,7 +77,6 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/typescript-icon.svg" name="TypeScript" />
             <TechItem src="/assets/logos/java.svg" name="JAVA" />
             <TechItem src="/assets/logos/gopher.svg" name="Golang" />
-            <TechItem src="/assets/logos/csharp.svg" name="C#" />
             <TechItem src="/assets/logos/Bash.svg" name="Bash" />
           </TabsContent>
 
