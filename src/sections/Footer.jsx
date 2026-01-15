@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div className="relative z-10 w-full flex justify-center px-8 mb-10">
-        <p className="text-[#B3B6C6] text-sm">Copyright ©2025 Hirusha Ranaweera</p>
+        <p className="text-[#B3B6C6] text-sm">Copyright ©2026 Hirusha Ranaweera</p>
       </div>
     </footer>
   );
