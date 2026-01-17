@@ -2,7 +2,7 @@ import { experiences } from "../constants";
 
 const WorkExperience = () => {
   return (
-    <section className="w-full py-16 px-4 text-white" id="experience">
+    <section className="w-full py-16 px-4 mb-25 text-white" id="experience">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-heading mb-12">Work Experience</h2>
 
@@ -10,7 +10,7 @@ const WorkExperience = () => {
           {experiences.map((exp) => (
             <div
               key={exp.id}
-              className="bg-[#181A2A] border border-gray-700 rounded-xl p-6 shadow-md transition-transform duration-600 ease-in-out hover:scale-102"
+              className="bg-[#181A2A] border-gray-700 rounded-xl p-6 shadow-md transition-transform duration-600 ease-in-out hover:scale-102"
             >
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl md:text-2xl font-semibold">{exp.title}</h3>

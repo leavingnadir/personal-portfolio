@@ -12,6 +12,7 @@ const certifications = [
   { img: "./assets/certifications/CPPS-badge.png" },
   { img: "./assets/certifications/crpo-badge.png" },
   { img: "./assets/certifications/CRTOM.png" },
+  { img: "./assets/certifications/skf100-understanding-the-owasp-top-10-security-thre.png" },
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
@@ -27,7 +28,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 mb-20">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-heading mb-8 text-center">Certifications</h2>
 

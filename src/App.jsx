@@ -6,6 +6,8 @@ import Footer from './sections/Footer';
 import Stack from "./sections/Stack";
 import Publications from "./sections/Publication";
 import Certifications from "./sections/Certifications";
+import Education from "./sections/Education";
+import Honors from "./sections/Honors";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Stack />
       <Experiences />
       <Certifications />
+      <Education />
+      <Honors />
       <Publications />
       <Footer/>
     </>

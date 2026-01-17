@@ -33,7 +33,7 @@ const Publications = () => {
               href={pub.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-4 md:p-5 rounded-lg border border-gray-700 bg-[#181A2A] shadow-md max-w-lg mx-auto"
+              className="block p-4 md:p-5 rounded-lg border-gray-700 bg-[#181A2A] shadow-md max-w-lg mx-auto transition-transform duration-600 ease-in-out hover:scale-102"
             >
               <h3 className="text-lg md:text-xl font-semibold mb-2">{pub.title}</h3>
               <p className="text-gray-400 text-xs md:text-sm mb-3">
