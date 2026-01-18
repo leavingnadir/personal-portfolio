@@ -227,3 +227,174 @@ export const experiences = [
     ],
   },
 ];
+
+
+export const educationData = [
+  {
+    id: 1,
+    logo: "./assets/education/sliit.png",
+    degree: "BSc (Hons) in Information Technology",
+    university: "Sri Lanka Institute of Information Technology (SLIIT)",
+    result: "GPA: 2.6",
+    year: "2024 – Present",
+  },
+  {
+    id: 2,
+    logo: "./assets/education/kingswood.png",
+    degree: "A/L Engineering Technology Stream",
+    university: "Kingswood College, Kandy",
+    result: "Results: BCC",
+    year: "2011 – 2025",
+  },
+  {
+    id: 3,
+    logo: "./assets/education/developers-stack.png",
+    degree: "DevOps Master Course",
+    university: "Developers Stack Academy",
+    result: "Results: ",
+    year: "2025 – Present",
+  },
+  {
+    id: 4,
+    logo: "./assets/education/epic-learn.jpg",
+    degree: "REACT & NEXT JS Master Course",
+    university: "Epic Learn",
+    result: "Result: Passed",
+    year: "2025 – 2025",
+  },
+  {
+    id: 5,
+    logo: "./assets/education/EC-Council.jpg",
+    degree: "EHE & NDE Certifications & Course Materials",
+    university: "EC Council University",
+    result: "Result: Passed",
+    year: "2023 – 2025",
+  },
+  {
+    id: 6,
+    logo: "./assets/education/sliit-city-uni.png",
+    degree: "Certificate program in IT Applications",
+    university: "SLIIT CITY UNI",
+    result: "Result: Passed",
+    year: "2022 – 2023",
+  },
+];
+
+
+export const awardsData = [
+  {
+    id: 1,
+    place: 1,
+    category: "NEXNOVA",
+    competition: "Graphic Design Competition",
+    year: "2024",
+  },
+  {
+    id: 1,
+    place: 1,
+    category: "TEMPEZ",
+    competition: "Logo Design Competition",
+    year: "2023",
+  },
+  {
+    id: 1,
+    place: 1,
+    category: "NEXNOVA",
+    competition: "Graphic Design Competition",
+    year: "2023",
+  },
+  {
+    id: 1,
+    place: 1,
+    category: "SPHAERA",
+    competition: "Video Editing Category",
+    year: "2023",
+  },
+  {
+    id: 2,
+    place: 2,
+    category: "NEXUS",
+    competition: "Logo Design Competition",
+    year: "2024",
+  },
+  {
+    id: 3,
+    place: 3,
+    category: "NEXNOVA",
+    competition: "Web Development Competition",
+    year: "2024",
+  },
+  {
+    id: 4,
+    place: 3,
+    category: "SAGACIOUS",
+    competition: "Web Development Competition",
+    year: "2024",
+  },
+  {
+    id: 4,
+    place: 3,
+    category: "NEXNOVA",
+    competition: "Programming Competition",
+    year: "2023",
+  },
+  {
+    id: 5,
+    place: 3,
+    category: "SANHIDA",
+    competition: "Short Film Editing Category",
+    year: "2023",
+  },
+];
+
+
+export const publications = [
+  {
+    id: 1,
+    title: "Utilizing Blockchain & Smart Contracts to Simplify and Secure Daily Life",
+    date: "Jul 23, 2025",
+    platform: "Zenodo",
+    description:
+      "Explored the practical application of blockchain technology in everyday scenarios by designing and developing a working prototype focused on automating routine tasks with smart contract logic and data transparency.",
+    url: "https://zenodo.org/records/16294106",
+  },
+  {
+    id: 2,
+    title: "DeFi Protocols Interplay Analyzation and Utilization",
+    date: "Jul 22, 2025",
+    platform: "Zenodo",
+    description:
+      "Conducted an in-depth analysis of how various decentralized finance protocols interact, identifying opportunities for cross-platform integration and yield optimization within the Web3 ecosystem.",
+    url: "https://zenodo.org/records/16294492",
+  },
+  // Add more publications here
+];
+
+
+export const certifications = [
+  { img: "./assets/certifications/ec_council.png" },
+  { img: "./assets/certifications/ezgif-2-003f3190c2.png" },
+  { img: "./assets/certifications/ezgif-2-831f8fb746.png" },
+  { img: "./assets/certifications/ezgif-2-f45f608060.png" },
+  { img: "./assets/certifications/I2CS_1.png" },
+  { img: "./assets/certifications/networking-basics.png" },
+  { img: "./assets/certifications/ethical-hacker.png" },
+  { img: "./assets/certifications/network-defense.png" },
+  { img: "./assets/certifications/endpoint-security.png" },
+  { img: "./assets/certifications/ccep.png" },
+  { img: "./assets/certifications/CPPS-badge.png" },
+  { img: "./assets/certifications/crpo-badge.png" },
+  { img: "./assets/certifications/CRTOM.png" },
+  { img: "./assets/certifications/skf100-understanding-the-owasp-top-10-security-thre.png" },
+  { img: "./assets/certifications/lfc108-cybersecurity-essentials.png" },
+  { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },
+  { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
+  { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
+  { img: "./assets/certifications/LFEL1009-Getting-Started-with-OpenTofu.png" },
+  { img: "./assets/certifications/lfs167-introduction-to-jenkins.png" },
+  { img: "./assets/certifications/inbound-marketing-certified.png" },
+  { img: "./assets/certifications/sales-management-certified.png" },
+  { img: "./assets/certifications/Navigating-On-Page-Technical-SEO-A-Semrush-Deep-Dive-certified.png" },
+  { img: "./assets/certifications/nyffsl.png" },
+  { img: "./assets/certifications/x-ads-manager-fundamentals.png" },
+];
