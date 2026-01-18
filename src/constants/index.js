@@ -124,14 +124,14 @@ export const myProjects = [
       "Using occupancy detection sensors and a people-counting algorithm, it automatically controls lights, fans, and air conditioners based on real-time room usage.",
       "The system features a modern web application built with React, Next.js, Tailwind CSS, and Websocket allowing users to monitor energy consumption, control appliances remotely, and improve efficiency from any device.",
     ],
-    href: "",
+    href: "https://github.com/leavingnadir/lowlux.git",
     logo: "",
     image: "/assets/projects/lowlux.PNG",
     tags: [
       {
         id: 1,
         name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        path: "/assets/logos/CPlusPlus.svg",
       },
       {
         id: 2,
@@ -182,6 +182,69 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+    ],
+  },
+  {
+    id: 6,
+    title: "Automated Web Server Deployment with Terraform on AWS",
+    description:
+      "Built and automated complete cloud infrastructure on AWS using Terraform IaC.",
+    subDescription: [
+      "Deployed a scalable web server environment including VPC, public subnet, internet gateway, custom route tables, security groups with firewall rules, and Ubuntu EC2 instance with Apache web server.",
+    ],
+    href: "https://github.com/leavingnadir/terraform-project.git",
+    logo: "",
+    image: "/assets/projects/terraform_aws.png",
+    tags: [
+      {
+        id: 1,
+        name: "Terraform",
+        path: "/assets/logos/Terraform.svg",
+      },
+      {
+        id: 2,
+        name: "AWS",
+        path: "/assets/logos/AWS.svg",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Travel Planner - Trip Planning Web App",
+    description:
+      "Developed a full-stack Travel Planner using Next.js, PostgreSQL (Neon), UploadThings, Better Auth, and Tailwind CSS",
+    subDescription: [
+      "The app enables users to plan and organize trips, manage destinations, and visualize routes with Google Maps integration. Designed with a secure authentication, and efficient data handling.",
+    ],
+    href: "https://github.com/leavingnadir/travel-planner.git",
+    logo: "",
+    image: "/assets/projects/travel_web.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs-icon.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "Neon",
+        path: "/assets/logos/neon.svg",
+      },
+      {
+        id: 4,
+        name: "Typescript",
+        path: "/assets/logos/typescript-icon.svg",
+      },
+      {
+        id: 5,
+        name: "PostgreSQL",
+        path: "/assets/logos/PostgresSQL.svg",
+      }
     ],
   }
 ];
@@ -389,12 +452,13 @@ export const certifications = [
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
-  { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
   { img: "./assets/certifications/LFEL1009-Getting-Started-with-OpenTofu.png" },
   { img: "./assets/certifications/lfs167-introduction-to-jenkins.png" },
+    { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
   { img: "./assets/certifications/inbound-marketing-certified.png" },
   { img: "./assets/certifications/sales-management-certified.png" },
   { img: "./assets/certifications/Navigating-On-Page-Technical-SEO-A-Semrush-Deep-Dive-certified.png" },
   { img: "./assets/certifications/nyffsl.png" },
   { img: "./assets/certifications/x-ads-manager-fundamentals.png" },
 ];
+
