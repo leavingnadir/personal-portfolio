@@ -182,6 +182,11 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+      {
+        id: 3,
+        name: "GSAP",
+        path: "/assets/logos/greensock-icon.svg",
+      },
     ],
   },
   {
@@ -320,7 +325,7 @@ export const educationData = [
   {
     id: 4,
     logo: "./assets/education/epic-learn.jpg",
-    degree: "REACT & NEXT JS Master Course",
+    degree: "React & Next JS Master Course",
     university: "Epic Learn",
     result: "Result: Passed",
     year: "2025 – 2025",
@@ -448,6 +453,7 @@ export const certifications = [
   { img: "./assets/certifications/CPPS-badge.png" },
   { img: "./assets/certifications/crpo-badge.png" },
   { img: "./assets/certifications/CRTOM.png" },
+  { img: "./assets/certifications/lfel1010-xss-exploits-and-defenses.png" },
   { img: "./assets/certifications/skf100-understanding-the-owasp-top-10-security-thre.png" },
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png" },

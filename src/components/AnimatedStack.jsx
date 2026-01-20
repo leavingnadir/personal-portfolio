@@ -89,9 +89,10 @@ export default function AnimatedTabsDemo() {
             <TechItem src="/assets/logos/Prometheus.svg" name="Prometheus"/>
             <TechItem src="/assets/logos/git.svg" name="Git"/>
             <TechItem src="/assets/logos/Postman.svg" name="Postman"/>
-            <TechItem src="/assets/logos/Kafka.svg" name="Kafka"/>
+            <TechItem src="/assets/logos/kafkaw.png" name="Kafka"/>
             <TechItem src="/assets/logos/RabbitMQ.svg" name="RabbitMQ"/>
             <TechItem src="/assets/logos/AWS.svg" name="AWS"/>
+            <TechItem src="/assets/logos/Azure.svg" name="Azure"/>
           </TabsContent>
 
           <TabsContent value="tools" className="grid grid-cols-2 md:grid-cols-4 gap-6">
