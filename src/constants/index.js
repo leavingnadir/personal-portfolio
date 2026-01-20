@@ -251,6 +251,40 @@ export const myProjects = [
         path: "/assets/logos/PostgresSQL.svg",
       }
     ],
+  },
+  {
+    id: 8,
+    title: "Apache Kafka Event Streaming Platform",
+    description:
+      "Built a fully containerized Apache Kafka event streaming platform using Docker and Kafka UI",
+    subDescription: [
+      "Implemented topics, partitions, replication. Gained hands-on experience with event-driven architecture, distributed messaging systems, and production-ready Kafka configurations.",
+    ],
+    href: "https://github.com/leavingnadir/apache-kafka-event-streaming-platform.git",
+    logo: "",
+    image: "/assets/projects/Kafka_Platform.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/Python.svg",
+      },
+      {
+        id: 2,
+        name: "Apache Kafka",
+        path: "/assets/logos/kafkaw.png",
+      },
+      {
+        id: 3,
+        name: "Docker",
+        path: "/assets/logos/Docker.svg",
+      },
+      {
+        id: 4,
+        name: "Bash",
+        path: "/assets/logos/Bash.svg",
+      },
+    ],
   }
 ];
 
