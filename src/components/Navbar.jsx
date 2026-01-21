@@ -25,7 +25,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="bg-[#030412] shadow-lg fixed w-full z-60">
+    <header className="shadow-lg fixed w-full z-60">
       <div className="flex justify-between items-center h-24 px-4 md:px-8 lg:px-12">
         {/* Logo */}
         <a href="/" className="text-white font-bold text-xl tracking-wide flex-shrink-0">

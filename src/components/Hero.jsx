@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState, createElement, useMemo, useCallback } from "react";
 import { gsap } from "gsap";
 
-
 /* -------------------- TextType Component -------------------- */
 const TextType = ({
   text,
