@@ -1,8 +1,8 @@
 import { experiences } from "../constants";
 
-const WorkExperience = () => {
+const Experience = () => {
   return (
-    <section className="w-full py-16 px-4 mb-25 text-white" id="experience">
+    <section className="w-full py-16 px-4 mb-20 mt-30 text-white" id="experience">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-heading mb-12">Work Experience</h2>
 
@@ -30,4 +30,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Experience;

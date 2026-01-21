@@ -2,7 +2,7 @@ import { certifications } from "../constants";
 
 const Certifications = () => {
   return (
-    <section className="py-10 mb-20">
+    <section className="py-10 mb-30 mt-30">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-heading mb-8 text-center">Certifications</h2>
 

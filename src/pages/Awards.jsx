@@ -21,9 +21,9 @@ const placeStyles = {
   },
 };
 
-export default function Honors() {
+export default function Awards() {
   return (
-    <section className="py-12 max-w-6xl mx-auto px-4 mb-10">
+    <section className="py-12 max-w-6xl mx-auto px-4 mb-10 mt-30">
       <h2 className="text-heading mb-20 text-center mt-3">
         Honors & Awards
       </h2>

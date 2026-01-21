@@ -1,30 +1,32 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Experiences from "./sections/Experiences";
-import Footer from './sections/Footer';
-import Stack from "./sections/Stack";
-import Publications from "./sections/Publication";
-import Certifications from "./sections/Certifications";
-import Education from "./sections/Education";
-import Honors from "./sections/Honors";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Education from "./pages/Education";
+import Experience from "./pages/Experience";
+import Stack from "./pages/Stack";
+import Publications from "./pages/Publications";
+import Awards from "./pages/Awards";
+import Certifications from "./pages/Certifications";
 
-const App = () => {
+export default function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Projects />
-      <Stack />
-      <Experiences />
-      <Certifications />
-      <Education />
-      <Honors />
-      <Publications />
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/stack" element={<Stack />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/awards" element={<Awards />} />
+          <Route path="/certifications" element={<Certifications />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-};
-
-export default App;
+}
