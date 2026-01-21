@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'motion/react';
+import { gallery } from "../constants";
 
 const springValues = {
   damping: 30,
@@ -137,19 +138,20 @@ const About = () => {
 
   // ----- About Section -----
   return (
-    <section className="px-4 md:px-8 py-16 md:py-24 mx-auto max-w-[1280px] mt-30" id="about">
-      <h2 className="text-heading text-center md:text-left">About Me</h2>
+    <section className="px-4 md:px-8 py-16 md:py-24 mx-auto max-w-[1280px]" id="about" >
+      <h2 className="text-heading text-center mb-12 mt-30">About Me</h2>
 
-      <div className="max-w-[95%] lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center md:mt-32 px-2 sm:px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
+        
         {/* Text Section */}
-        <div className="w-full lg:w-3xl">
-          <p className="text-base sm:text-lg text-gray-400 mb-4 text-center md:text-left max-w-[600px] md:max-w-none mx-auto md:mx-0">
+        <div className="w-full text-center md:text-left mb-10">
+          <p className="text-base sm:text-lg text-gray-400 mb-4">
             I’m <span className="font-semibold text-rose-400">Hirusha Ranaweera</span>, 
             a 1st-year BSc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,
             DevOps, Cloud, Security and CyberOps. Originally from Kandy and now living in Malabe.
           </p>
 
-          <p className="text-base sm:text-lg text-gray-400 mb-4 text-center md:text-left">
+          <p className="text-base sm:text-lg text-gray-400 mb-4 max-w-xl mx-auto md:mx-0">
             I’m exploring modern IT fields including Quantum computing, Blockchain, Web3.0. 
             Alongside academics, I work as a freelance developer and previously contributed
             as a web developer at Chasm Clothing and Video Editor at ZoomOut. I’m also the{" "}
@@ -157,14 +159,14 @@ const About = () => {
             <a
               href="https://www.linkedin.com/company/leaving-nadir/"
               target="_blank"
+              rel="noopener noreferrer"
               className="font-semibold text-rose-400 hover:underline"
             >
               Leaving Nadir LLP ↗
-            </a>{" "}
-            .
+            </a>.
           </p>
 
-          <p className="text-base sm:text-lg text-gray-400 text-center md:text-left">
+          <p className="text-base sm:text-lg text-gray-400 max-w-xl mx-auto md:mx-0">
             I have published two papers on Web3, Blockchain, and DApp development, which allowed
             me to contribute to the growing discourse on decentralized technologies. With a drive for continuous learning and innovation, my mission
             is to explore, create, and bring forward new ideas that shape the future of technology in the country.
@@ -172,15 +174,15 @@ const About = () => {
         </div>
 
         {/* Profile Image */}
-        <div className="flex justify-center md:justify-end mt-6 md:mt-0">
+        <div className="flex justify-center">
           <TiltedCard
             imageSrc="/assets/me.png"
             altText="Hirusha Ranaweera"
             captionText="Hirusha Ranaweera"
-            containerHeight="260px"
-            containerWidth="260px"
-            imageHeight="260px"
-            imageWidth="260px"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
             rotateAmplitude={10}
             scaleOnHover={1.15}
             showMobileWarning={false}
@@ -188,6 +190,102 @@ const About = () => {
             displayOverlayContent={true}
           />
         </div>
+      </div>
+
+
+
+
+      <div className="max-w-screen-xl mx-auto px-4 py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          {/* Left: Text Content */}
+          <div>
+            <p className="text-sm uppercase tracking-widest text-rose-500 mb-2">
+              Founder & CEO
+            </p>
+
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+              Building the future with{" "}
+              <span className="text-rose-500">Leaving Nadir</span>
+            </h2>
+
+            <p className="text-neutral-400 leading-relaxed mb-6">
+              I’m the founder and CEO of <span className="text-white font-medium">Leaving Nadir</span>, a
+              digital innovation brand focused on building scalable, secure, and visually compelling
+              technology solutions. My mission is to merge design, engineering, and strategy to create
+              impactful digital experiences that solve real-world problems.
+            </p>
+
+            <p className="text-neutral-400 leading-relaxed mb-10">
+              Leaving Nadir turn visionary ideas into intelligent digital realities. Guided by innovation and
+              inspired by Sri Lanka’s legacy of creativity. From concept to deployment, we design systems that
+              empower the next generation of progress.
+            </p>
+
+            {/* Facts / Highlights */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+              <div>
+                <p className="text-2xl font-bold text-white">2024</p>
+                <p className="text-sm text-neutral-400">Founded</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-white">15+</p>
+                <p className="text-sm text-neutral-400">Projects Delivered</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-white">Sri Lanka</p>
+                <p className="text-sm text-neutral-400">Based</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Logo + Visual Card */}
+          <div className="relative flex justify-center">
+            <div className="relative bg-gradient-to-br from-midnight to-navy border border-white/10 rounded-2xl p-10 shadow-xl max-w-md w-full">
+
+              {/* Logo */}
+              <img
+                src="/assets/ln-logo.png"
+                alt="Leaving Nadir Logo"
+                className="invert brightness-200 w-33 h-33 object-contain mx-auto mb-6"
+              />
+
+              <h3 className="text-xl font-semibold text-white text-center mb-2">
+                Leaving Nadir
+              </h3>
+
+              <p className="text-neutral-400 text-center mb-6">
+                SaaS Dev • Application Dev • Cloud Sec
+                Database Dev • Information Security • Web Dev
+                CyberOps • DevOps • IT Consulting
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-50 mb-30">
+        {gallery.map((img, index) => (
+          <div
+            key={index}
+            className={`relative overflow-hidden rounded-lg group ${
+              img.type === "portrait" ? "row-span-2" : ""
+            }`}
+          >
+            <img
+              src={img.src}
+              alt={img.alt}
+              className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+            />
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+              <span className="text-white text-lg font-semibold text-center px-2">
+                {img.title}
+              </span>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

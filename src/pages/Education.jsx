@@ -2,8 +2,8 @@ import { educationData } from "../constants";
 
 export default function Education() {
   return (
-    <section className="py-12 max-w-6xl mx-auto px-4 mb-20 mt-30">
-      <h2 className="text-heading mb-10 text-center mt-3">Education</h2>
+    <section className="py-12 max-w-6xl mx-auto px-4 mb-20">
+      <h2 className="text-heading mb-10 text-center mt-30">Education</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {educationData.map((edu) => (

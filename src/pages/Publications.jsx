@@ -2,9 +2,9 @@ import { publications } from "../constants";
 
 const Publications = () => {
   return (
-    <section className="w-full py-16 px-4 mb-20 mt-30 text-white" id="publications">
+    <section className="w-full py-16 px-4 mb-20 text-white" id="publications">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-heading mb-10">Publications</h2>
+        <h2 className="text-heading mb-10 mt-30">Publications</h2>
         <div className="grid gap-6 md:grid-cols-2">
           {publications.map((pub) => (
             <a

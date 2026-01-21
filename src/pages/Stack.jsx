@@ -13,8 +13,8 @@ const TechItem = ({ src, name }) => {
 /* -------------------- Main Stack Component -------------------- */
 export default function Stack() {
   return (
-    <section className="c-space mt-30 mb-30 grid content-center mx-auto max-w-[1280px]">
-      <h2 className="text-heading mb-6">Tech Stack</h2>
+    <section className="c-space mb-20 grid content-center mx-auto max-w-[1280px]">
+      <h2 className="text-heading mt-40">Tech Stack</h2>
 
       <Tabs defaultValue="frontend" className="w-full">
         {/* Tabs List */}
@@ -88,6 +88,7 @@ export default function Stack() {
             <TechItem src="/assets/logos/java.svg" name="JAVA" />
             <TechItem src="/assets/logos/gopher.svg" name="Golang" />
             <TechItem src="/assets/logos/Bash.svg" name="Bash" />
+            <TechItem src="/assets/logos/Python.svg" name="Python" />
           </TabsContent>
 
           <TabsContent value="DevOps" className="grid grid-cols-2 md:grid-cols-4 gap-6">

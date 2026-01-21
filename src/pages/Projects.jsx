@@ -13,9 +13,9 @@ const ProjectDetails = ({
   closeModal,
 }) => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm mt-30">
+    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
-        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative max-w-2xl w-full mx-4 border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
       >
@@ -56,8 +56,7 @@ const ProjectDetails = ({
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
             >
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" />
+              View Project <img src="assets/arrow-up.svg" className="size-4" />
             </a>
           </div>
         </div>
@@ -137,10 +136,10 @@ const Projects = () => {
   return (
     <section
       onMouseMove={handleMouseMove}
-      className="relative c-space section-spacing content-center mx-auto max-w-[1280px] mb-40"
+      className="relative c-space content-center mx-auto max-w-[1280px] mb-40 pt-24"
       id="projects"
     >
-      <h2 className="text-heading">Projects</h2>
+      <h2 className="text-heading mt-30">Projects</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
 
       {myProjects.map((project) => (

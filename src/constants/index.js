@@ -502,3 +502,47 @@ export const certifications = [
   { img: "./assets/certifications/x-ads-manager-fundamentals.png" },
 ];
 
+export const gallery = [
+    {
+      src: "/assets/gallery/kas04.jpg",
+      alt: "Portrait 1",
+      type: "portrait",
+      title: "Region of Exotica'24",
+    },
+    {
+      src: "/assets/gallery/kits02.jpg",
+      alt: "Portrait 2",
+      type: "portrait",
+      title: "SAGACIOUS'24",
+    },
+    {
+      src: "/assets/gallery/kas01.jpg",
+      alt: "Landscape 1",
+      type: "landscape",
+      title: "Region of Exotica'24",
+    },
+    {
+      src: "/assets/gallery/kas03.jpg",
+      alt: "Landscape 2",
+      type: "landscape",
+      title: "Outgoing Com",
+    },
+    {
+      src: "/assets/gallery/kits01.jpg",
+      alt: "Landscape 3",
+      type: "landscape",
+      title: "Nexnova'23",
+    },
+    {
+      src: "/assets/gallery/kmn01.jpg",
+      alt: "Landscape 4",
+      type: "landscape",
+      title: "Kingswood Media Network",
+    },
+    {
+      src: "/assets/gallery/kss01.jpg",
+      alt: "Landscape 6",
+      type: "landscape",
+      title: "SAGA'25",
+    },
+];

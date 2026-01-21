@@ -24,7 +24,7 @@ const Footer = () => {
         </p>
         <a
           href="mailto:hello.hirusharanaweera@gmail.com"
-          className="inline-flex items-center justify-center px-6 py-4 rounded-xl border border-[#23243a] bg-rose-600 text-white text-lg font-medium shadow-lg hover:bg-rose-800 mb-16"
+          className="inline-flex items-center justify-center px-6 py-4 rounded-xl bg-rose-600 text-white text-lg font-medium shadow-lg hover:bg-rose-800 mb-16 transition-colors duration-200"
         >
           Contact Me Now
           <span className="ml-2 text-xl">↗</span>
@@ -38,7 +38,7 @@ const Footer = () => {
             href={social.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#181A2A] border border-[#23243a] text-white text-2xl hover:bg-[#23243a] transition"
+            className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#181A2A] border border-[#23243a] text-white text-2xl hover:bg-[#23243a] transition-colors duration-200"
           >
             {social.icon}
           </a>
