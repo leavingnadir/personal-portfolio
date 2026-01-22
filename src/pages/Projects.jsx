@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { myProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
+import Crafts from "../components/Crafts";
 
 /* -------------------- Project Details Modal -------------------- */
 const ProjectDetails = ({
@@ -153,6 +154,7 @@ const Projects = () => {
           style={{ x: springX, y: springY }}
         />
       )}
+      <Crafts />
     </section>
   );
 };

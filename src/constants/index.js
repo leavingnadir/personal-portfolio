@@ -494,7 +494,7 @@ export const certifications = [
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png" },
   { img: "./assets/certifications/LFEL1009-Getting-Started-with-OpenTofu.png" },
   { img: "./assets/certifications/lfs167-introduction-to-jenkins.png" },
-    { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
+  { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
   { img: "./assets/certifications/inbound-marketing-certified.png" },
   { img: "./assets/certifications/sales-management-certified.png" },
   { img: "./assets/certifications/Navigating-On-Page-Technical-SEO-A-Semrush-Deep-Dive-certified.png" },
@@ -546,3 +546,82 @@ export const gallery = [
       title: "SAGA'25",
     },
 ];
+
+export const crafts = [
+  {
+    id: 1,
+    title: "Logo Exploration",
+    image: "/assets/crafts/01.jpg",
+  },
+  {
+    id: 2,
+    title: "Logo Exploration",
+    image: "/assets/crafts/02.jpg",
+  },
+  {
+    id: 3,
+    title: "Logo Exploration",
+    image: "/assets/crafts/03.jpg",
+  },
+  {
+    id: 4,
+    title: "Logo Exploration",
+    image: "/assets/crafts/04.jpg",
+  },
+  {
+    id: 5,
+    title: "Logo Exploration",
+    image: "/assets/crafts/05.jpg",
+  },
+  {
+    id: 6,
+    title: "Logo Exploration",
+    image: "/assets/crafts/06.jpg",
+  },
+  {
+    id: 8,
+    title: "Logo Exploration",
+    image: "/assets/crafts/08.jpg",
+  },
+  {
+    id: 9,
+    title: "Logo Exploration",
+    image: "/assets/crafts/09.jpg",
+  },
+  {
+    id: 11,
+    title: "Logo Exploration",
+    image: "/assets/crafts/11.jpg",
+  },
+  {
+    id: 12,
+    title: "Logo Exploration",
+    image: "/assets/crafts/12.jpg",
+  },
+  {
+    id: 13,
+    title: "Logo Exploration",
+    image: "/assets/crafts/13.jpg",
+  },
+  {
+    id: 14,
+    title: "Logo Exploration",
+    image: "/assets/crafts/14.jpg",
+  },
+  {
+    id: 15,
+    title: "Logo Exploration",
+    image: "/assets/crafts/15.jpg",
+  },
+  {
+    id: 16,
+    title: "Logo Exploration",
+    image: "/assets/crafts/16.jpg",
+  },
+  {
+    id: 17,
+    title: "Logo Exploration",
+    image: "/assets/crafts/17.jpg",
+  }
+];
+

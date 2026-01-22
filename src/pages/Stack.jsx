@@ -1,6 +1,6 @@
 const TechItem = ({ src, name }) => {
   return (
-    <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 rounded-2xl bg-[#0f1225] hover:bg-[#1a1f3c] transition-all duration-300 hover:scale-105 shadow-md text-center">
+    <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 rounded-2xl bg-[#0f1225] hover:bg-[#1a1f3c] transition-all duration-300 hover:scale-105 shadow-md">
       <img
         src={src}
         alt={name}
@@ -13,8 +13,8 @@ const TechItem = ({ src, name }) => {
 
 const StackSection = ({ title, items }) => {
   return (
-    <div className="mt-20 flex flex-col items-center text-center w-full">
-      <h3 className="text-xl md:text-2xl font-semibold mb-10 text-white">
+    <div className="mt-20 w-full">
+      <h3 className="text-xl md:text-2xl font-semibold mb-10 text-white text-left">
         {title}
       </h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
@@ -38,7 +38,7 @@ export default function Stack() {
         to build scalable, secure, and high-performance applications.
       </p>
 
-      <StackSection className="items-center"
+      <StackSection
         title="Frontend"
         items={[
           { src: "/assets/logos/react.svg", name: "React.js" },
@@ -96,6 +96,8 @@ export default function Stack() {
           { src: "/assets/logos/Postman.svg", name: "Postman" },
           { src: "/assets/logos/kafkaw.png", name: "Kafka" },
           { src: "/assets/logos/RabbitMQ.svg", name: "RabbitMQ" },
+          { src: "/assets/logos/SonarQube.svg", name: "SonarQube" },
+          { src: "/assets/logos/ApacheMaven.svg", name: "Apache Maven" },
           { src: "/assets/logos/AWS.svg", name: "AWS" },
           { src: "/assets/logos/Azure.svg", name: "Azure" },
         ]}
