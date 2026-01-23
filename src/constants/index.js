@@ -625,3 +625,74 @@ export const crafts = [
   }
 ];
 
+export const personas = [
+  {
+    id: 1,
+    name: "Learner",
+    title: "Learner",
+    image: "/assets/versions/person1.png",
+    description: "Learning, Testing, Building, Securing scalable web apps and APIs.",
+    socials: {
+      LinkedIn: "https://www.linkedin.com/in/hirusha-ranaweera-480a91365/",
+      GitHub: "https://github.com/leavingnadir"
+    },
+  },
+  {
+    id: 2,
+    name: "Explorer",
+    title: "Explorer",
+    image: "/assets/versions/person2.png",
+    description: "Explorer at heart, thriving in the wild and the open air",
+    socials: {
+      Instagram: "https://www.instagram.com/hiruwa_xx/",
+      FaceBook: "https://www.facebook.com/hirusha_ranaweera"
+    },
+  },
+  {
+    id: 3,
+    name: "Designer",
+    title: "Designer",
+    image: "/assets/versions/person3.png",
+    description: "Crafting visuals that speak, design that connects",
+    socials: {
+      Behance: "https://www.behance.net/hirusharanaweera",
+      Zenodo: "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Ranaweera%2C%20Hirusha%22&l=list&p=1&s=10&sort=bestmatch",
+    },
+  },
+  {
+    id: 4,
+    name: "Sport Athlete",
+    title: "Sport Athlete",
+    image: "/assets/versions/person4.png",
+    description: "Rugby and American football player with a passion",
+    socials: {
+      Instagram: "https://www.instagram.com/hiruwa_xx/",
+      FaceBook: "https://www.facebook.com/hirusha_ranaweera"
+    },
+  },
+];
+
+
+export const spotcards = [
+  {
+    id: 1,
+    title: "Amazing Integration",
+    description: "Quickly apply filters to refine your issues lists and create custom views.",
+    image: "https://cruip-tutorials.vercel.app/spotlight-effect/card-01.png",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Powerful Automation",
+    description: "Automate workflows and streamline your development pipeline effortlessly.",
+    image: "https://cruip-tutorials.vercel.app/spotlight-effect/card-02.png",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Secure Infrastructure",
+    description: "Ensure maximum security with enterprise-grade protection tools.",
+    image: "https://cruip-tutorials.vercel.app/spotlight-effect/card-03.png",
+    link: "#",
+  },
+];
