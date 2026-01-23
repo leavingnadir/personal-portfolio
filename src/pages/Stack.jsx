@@ -90,8 +90,6 @@ export default function Stack() {
           { src: "/assets/logos/Kubernetes.svg", name: "Kubernetes" },
           { src: "/assets/logos/Terraform.svg", name: "Terraform" },
           { src: "/assets/logos/Jenkins.svg", name: "Jenkins" },
-          { src: "/assets/logos/Grafana.svg", name: "Grafana" },
-          { src: "/assets/logos/Prometheus.svg", name: "Prometheus" },
           { src: "/assets/logos/git.svg", name: "Git" },
           { src: "/assets/logos/Postman.svg", name: "Postman" },
           { src: "/assets/logos/kafkaw.png", name: "Kafka" },
