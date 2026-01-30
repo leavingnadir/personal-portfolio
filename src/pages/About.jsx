@@ -225,7 +225,7 @@ const About = () => {
             {/* Facts / Highlights */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
               <div>
-                <p className="text-2xl font-bold text-white">2024</p>
+                <p className="text-2xl font-bold text-white">2019</p>
                 <p className="text-sm text-neutral-400">Founded</p>
               </div>
               <div>

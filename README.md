@@ -122,3 +122,9 @@ npm i react-icons
   --sidebar-ring: oklch(0.556 0 0);
 }
 ```
+
+# CV/ RESUME
+
+```
+https://drive.google.com/file/d/1LJ0OES1lamZOaXdYB1DPxNMtx7Z1wSdo/view?usp=sharing
+```
