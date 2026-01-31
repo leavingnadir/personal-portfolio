@@ -285,6 +285,55 @@ export const myProjects = [
         path: "/assets/logos/Bash.svg",
       },
     ],
+  },
+  {
+    id: 9,
+    title: "Enterprise-Grade API with DevOps, CI/CD and Automated Testing",
+    description:
+      "Developed a secure, scalable, and production-ready API using modern DevOps and cloud-native practices.",
+    subDescription: [
+      "The project covers the full lifecycle from development to deployment, featuring Dockerized services, CI/CD automation, and backend development with Node.js, Express.js, Neon PostgreSQL, and Drizzle ORM. Implemented API security with Arcjet and automated testing using Jest.",
+    ],
+    href: "https://github.com/leavingnadir/acquisitions.git",
+    logo: "",
+    image: "/assets/projects/enterprise_api.png",
+    tags: [
+      {
+        id: 1,
+        name: "Express.js",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 2,
+        name: "PostgreSQL",
+        path: "/assets/logos/PostgresSQL.svg",
+      },
+      {
+        id: 3,
+        name: "Neon",
+        path: "/assets/logos/neon.svg",
+      },
+      {
+        id: 4,
+        name: "Docker",
+        path: "/assets/logos/Docker.svg",
+      },
+      {
+        id: 5,
+        name: "Kubernetes",
+        path: "/assets/logos/Kubernetes.svg",
+      },
+      {
+        id: 6,
+        name: "Github Actions",
+        path: "/assets/logos/github-actions.svg",
+      },
+      {
+        id: 7,
+        name: "Jest",
+        path: "/assets/logos/Jest.svg",
+      },
+    ],
   }
 ];
 

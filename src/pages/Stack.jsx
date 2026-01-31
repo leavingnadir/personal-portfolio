@@ -96,6 +96,7 @@ export default function Stack() {
           { src: "/assets/logos/RabbitMQ.svg", name: "RabbitMQ" },
           { src: "/assets/logos/SonarQube.svg", name: "SonarQube" },
           { src: "/assets/logos/ApacheMaven.svg", name: "Apache Maven" },
+          { src: "/assets/logos/github-actions.svg", name: "GitHub Actions" },
           { src: "/assets/logos/AWS.svg", name: "AWS" },
           { src: "/assets/logos/Azure.svg", name: "Azure" },
         ]}
