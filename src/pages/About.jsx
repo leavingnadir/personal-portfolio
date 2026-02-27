@@ -1,3 +1,14 @@
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaFacebook,
+  FaDiscord,
+  FaSteam,
+  FaXbox
+} from "react-icons/fa";
+
+import { SiBehance, SiMedium, SiEpicgames } from "react-icons/si";
 import { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'motion/react';
 import { gallery } from "../constants";
@@ -192,7 +203,40 @@ const About = () => {
         </div>
       </div>
 
+      <div className="max-w-6xl mx-auto mt-24 mb-24">
 
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
+
+    {[
+      { name: "LinkedIn", icon: <FaLinkedin />, url: "https://www.linkedin.com/in/hirusha-ranaweera-480a91365/" },
+      { name: "GitHub", icon: <FaGithub />, url: "https://github.com/leavingnadir" },
+      { name: "Behance", icon: <SiBehance />, url: "https://www.behance.net/hirusharanaweera" },
+      { name: "Medium", icon: <SiMedium />, url: "https://medium.com/@YOUR_USERNAME" },
+      { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/hiruwa_xx/" },
+      { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=100091334018086" },
+      { name: "Discord", icon: <FaDiscord />, url: "https://discord.com/users/ultima" },
+      { name: "Steam", icon: <FaSteam />, url: "https://steamcommunity.com/id/ultimasl/" },
+      { name: "Epic Games", icon: <SiEpicgames />, url: "https://www.epicgames.com/id/" },
+      { name: "Xbox", icon: <FaXbox />, url: "https://account.xbox.com/en-us/Profile?gamertag=ultima" }
+    ].map((social, index) => (
+      <a
+        key={index}
+        href={social.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-28 h-28 flex flex-col items-center justify-center rounded-xl border-1 bg-[#181A2A] border-[#23243a] hover:bg-[#23243a] transition-all duration-300 hover:scale-105"
+      >
+        <div className="text-3xl mb-2">
+          {social.icon}
+        </div>
+        <span className="text-sm font-medium text-white">
+          {social.name}
+        </span>
+      </a>
+    ))}
+
+  </div>
+</div>
 
 
       <div className="max-w-screen-xl mx-auto px-4 py-24">
