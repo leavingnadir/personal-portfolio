@@ -539,7 +539,15 @@ export const publications = [
       "Conducted an in-depth analysis of how various decentralized finance protocols interact, identifying opportunities for cross-platform integration and yield optimization within the Web3 ecosystem.",
     url: "https://zenodo.org/records/16294492",
   },
-  // Add more publications here
+  {
+    id: 3,
+    title: "Prompt Injection Attacks and Jailbreaking in Large Language Models",
+    date: "Feb 26, 2026",
+    platform: "Zenodo",
+    description:
+      "This research explores the security risks of prompt injection and jailbreaking in Large Language Models (LLMs). It introduces a probabilistic risk model and proposes a multi-layered defense framework (SPGM) to reduce attack success rates.",
+    url: "https://zenodo.org/records/18791956",
+  },
 ];
 
 
