@@ -575,6 +575,7 @@ export const certifications = [
   { img: "./assets/certifications/LFEL1009-Getting-Started-with-OpenTofu.png" },
   { img: "./assets/certifications/lfs167-introduction-to-jenkins.png" },
   { img: "./assets/certifications/lfw111-introduction-to-node-js.png" },
+  { img: "./assets/certifications/lfel1002-getting-started-with-rust.png" },
   { img: "./assets/certifications/lfs184-introduction-to-javascript-security.png" },
   { img: "./assets/certifications/lfel1004-authentication-authorization-for-web-api.png" },
   { img: "./assets/certifications/inbound-marketing-certified.png" },

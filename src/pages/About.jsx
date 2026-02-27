@@ -211,12 +211,12 @@ const About = () => {
       { name: "LinkedIn", icon: <FaLinkedin />, url: "https://www.linkedin.com/in/hirusha-ranaweera-480a91365/" },
       { name: "GitHub", icon: <FaGithub />, url: "https://github.com/leavingnadir" },
       { name: "Behance", icon: <SiBehance />, url: "https://www.behance.net/hirusharanaweera" },
-      { name: "Medium", icon: <SiMedium />, url: "https://medium.com/@YOUR_USERNAME" },
+      { name: "Medium", icon: <SiMedium />, url: "https://medium.com/@leavingnadir.inc" },
       { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/hiruwa_xx/" },
       { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=100091334018086" },
       { name: "Discord", icon: <FaDiscord />, url: "https://discord.com/users/ultima" },
       { name: "Steam", icon: <FaSteam />, url: "https://steamcommunity.com/id/ultimasl/" },
-      { name: "Epic Games", icon: <SiEpicgames />, url: "https://www.epicgames.com/id/" },
+      { name: "Epic Games", icon: <SiEpicgames />, url: "https://www.epicgames.com/id/ultima" },
       { name: "Xbox", icon: <FaXbox />, url: "https://account.xbox.com/en-us/Profile?gamertag=ultima" }
     ].map((social, index) => (
       <a
