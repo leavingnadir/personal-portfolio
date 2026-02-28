@@ -216,7 +216,7 @@ const About = () => {
       { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=100091334018086" },
       { name: "Discord", icon: <FaDiscord />, url: "https://discord.com/users/ultima" },
       { name: "Steam", icon: <FaSteam />, url: "https://steamcommunity.com/id/ultimasl/" },
-      { name: "Epic Games", icon: <SiEpicgames />, url: "https://www.epicgames.com/id/ultima" },
+      { name: "Epic Games", icon: <SiEpicgames />, url: "https://www.epicgames.com/id/ultimasl" },
       { name: "Xbox", icon: <FaXbox />, url: "https://account.xbox.com/en-us/Profile?gamertag=ultima" }
     ].map((social, index) => (
       <a
