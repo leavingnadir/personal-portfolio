@@ -334,6 +334,30 @@ export const myProjects = [
         path: "/assets/logos/Jest.svg",
       },
     ],
+  },
+  {
+    id: 10,
+    title: "Injekt v1.0 – Network & Vulnerability Scanner",
+    description:
+      "Developed a Python-based cross-platform network and vulnerability scanning tool.",
+    subDescription: [
+      "The project features capable of detecting open ports, grabbing service banners, and performing automated vulnerability scans using Nmap.",
+    ],
+    href: "https://github.com/leavingnadir/injekt_v1.0.git",
+    logo: "",
+    image: "/assets/projects/injekt_v1.0.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/Python.svg",
+      },
+      {
+        id: 2,
+        name: "Nmap",
+        path: "/assets/logos/nmap.png",
+      }
+    ],
   }
 ];
 
