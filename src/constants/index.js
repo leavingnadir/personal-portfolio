@@ -574,12 +574,12 @@ export const publications = [
   },
 ];
 
-
 export const certifications = [
   { img: "./assets/certifications/ec_council.png" },
   { img: "./assets/certifications/ezgif-2-003f3190c2.png" },
   { img: "./assets/certifications/ezgif-2-831f8fb746.png" },
   { img: "./assets/certifications/ezgif-2-f45f608060.png" },
+  { img: "./assets/certifications/cyberops-associate.png" },
   { img: "./assets/certifications/I2CS_1.png" },
   { img: "./assets/certifications/networking-basics.png" },
   { img: "./assets/certifications/ethical-hacker.png" },
