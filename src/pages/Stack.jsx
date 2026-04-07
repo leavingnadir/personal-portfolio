@@ -65,8 +65,8 @@ export default function Stack() {
       <StackSection
         title="Databases"
         items={[
-          { src: "/assets/logos/mongodb-icon.svg", name: "MongoDB" },
           { src: "/assets/logos/PostgresSQL.svg", name: "PostgreSQL" },
+          { src: "/assets/logos/mongodb-icon.svg", name: "MongoDB" },
           { src: "/assets/logos/neon.svg", name: "Neon" },
         ]}
       />
