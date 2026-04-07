@@ -585,6 +585,7 @@ export const certifications = [
   { img: "./assets/certifications/ethical-hacker.png" },
   { img: "./assets/certifications/network-defense.png" },
   { img: "./assets/certifications/endpoint-security.png" },
+  { img: "./assets/certifications/cyber-threat-management.png" },
   { img: "./assets/certifications/ccep.png" },
   { img: "./assets/certifications/CPPS-badge.png" },
   { img: "./assets/certifications/crpo-badge.png" },
