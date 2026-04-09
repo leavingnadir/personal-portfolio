@@ -591,6 +591,7 @@ export const certifications = [
   { img: "./assets/certifications/crpo-badge.png", name : "Certified Ransomware Protection Officer" },
   { img: "./assets/certifications/CRTOM.png", name : "Certified Red Team Management Operations" },
   { img: "./assets/certifications/lfel1010-xss-exploits-and-defenses.png", name : "XSS Exploits and Defenses" },
+    { img: "./assets/certifications/lfd121-developing-secure-software.1.png", name : "Developing Secure Software" },
   { img: "./assets/certifications/skf100-understanding-the-owasp-top-10-security-thre.png", name : "Understanding the OWASP Top 10 Security Threats" },
   { img: "./assets/certifications/lfd103-a-beginner-s-guide-to-linux-kernel-development.png", name : "A Beginner's Guide to Linux Kernel Development" },
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png", name : "Cybersecurity Essentials" },
