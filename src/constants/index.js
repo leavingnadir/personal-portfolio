@@ -395,7 +395,7 @@ export const experiences = [
   {
     title: "Web Developer",
     job: "Chasm Clothing",
-    date: "APR 2025 - OCT 2025",
+    date: "APR 2025 - FEB 2026",
     contents: [
       "Designed and developed the official Chasm Clothing website, ensuring a modern, responsive, and user-friendly interface.",
       "Focused on seamless navigation and performance optimization for better customer engagement.",
@@ -591,7 +591,7 @@ export const certifications = [
   { img: "./assets/certifications/crpo-badge.png", name : "Certified Ransomware Protection Officer" },
   { img: "./assets/certifications/CRTOM.png", name : "Certified Red Team Management Operations" },
   { img: "./assets/certifications/lfel1010-xss-exploits-and-defenses.png", name : "XSS Exploits and Defenses" },
-    { img: "./assets/certifications/lfd121-developing-secure-software.1.png", name : "Developing Secure Software" },
+  { img: "./assets/certifications/lfd121-developing-secure-software.1.png", name : "Developing Secure Software" },
   { img: "./assets/certifications/skf100-understanding-the-owasp-top-10-security-thre.png", name : "Understanding the OWASP Top 10 Security Threats" },
   { img: "./assets/certifications/lfd103-a-beginner-s-guide-to-linux-kernel-development.png", name : "A Beginner's Guide to Linux Kernel Development" },
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png", name : "Cybersecurity Essentials" },
@@ -604,6 +604,7 @@ export const certifications = [
   { img: "./assets/certifications/lfel1002-getting-started-with-rust.png", name : "Getting Started with Rust" },
   { img: "./assets/certifications/lfs184-introduction-to-javascript-security.png", name : "Introduction to JavaScript Security" },
   { img: "./assets/certifications/lfel1004-authentication-authorization-for-web-api.png", name : "Authentication and Authorization for Web APIs" },
+  { img: "./assets/certifications/lfs158-introduction-to-kubernetes.png", name : "Introduction to Kubernetes" },
   { img: "./assets/certifications/inbound-marketing-certified.png", name : "Inbound Marketing Certified" },
   { img: "./assets/certifications/sales-management-certified.png", name : "Hubspot Sales Management Certified" },
   { img: "./assets/certifications/Navigating-On-Page-Technical-SEO-A-Semrush-Deep-Dive-certified.png", name : "Semrush Technical SEO" },
