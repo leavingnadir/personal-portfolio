@@ -605,6 +605,7 @@ export const certifications = [
   { img: "./assets/certifications/lfs184-introduction-to-javascript-security.png", name : "Introduction to JavaScript Security" },
   { img: "./assets/certifications/lfel1004-authentication-authorization-for-web-api.png", name : "Authentication and Authorization for Web APIs" },
   { img: "./assets/certifications/lfs158-introduction-to-kubernetes.png", name : "Introduction to Kubernetes" },
+  { img: "./assets/certifications/lfs157-introduction-to-serverless-on-kubernetes.png", name : "Introduction to Serverless on Kubernetes" },
   { img: "./assets/certifications/inbound-marketing-certified.png", name : "Inbound Marketing Certified" },
   { img: "./assets/certifications/sales-management-certified.png", name : "Hubspot Sales Management Certified" },
   { img: "./assets/certifications/Navigating-On-Page-Technical-SEO-A-Semrush-Deep-Dive-certified.png", name : "Semrush Technical SEO" },
