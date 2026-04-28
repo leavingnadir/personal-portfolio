@@ -179,21 +179,21 @@ export default function Hero() {
     <section
       className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/assets/bg.png')",
+        backgroundImage: "url('/assets/generated1.png')",
       }}
     >
-      <div className="absolute inset-0 z-0"></div>
+      <div className="absolute inset-0 bg-black/50 z-0"></div>
 
       <div className="relative z-10 text-white max-w-3xl mt-[1rem]">
         <p className="text-[clamp(1rem,1vw,3rem)] text-neutral-300 font-mono leading-relaxed">
           👋 Hello There,
         </p>
 
-        <h2 className="text-[clamp(2rem,3.5vw,4.5rem)] font-light">
+        <h2 className="text-4xl font-light">
           Welcome to My Portfolio
         </h2>
 
-        <h3 className="text-4xl font-light mb-6">
+        <h3 className="text-[clamp(2rem,3.5vw,4.5rem)] font-light mb-3">
           I'm Hirusha Ranaweera
         </h3>
 

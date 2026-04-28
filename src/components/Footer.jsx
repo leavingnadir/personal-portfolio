@@ -11,7 +11,7 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="relative w-full flex flex-col justify-center items-center overflow-hidden" id="contact">
+    <footer className="relative w-full flex flex-col justify-center items-center overflow-hidden mt-30" id="contact">
       <div className="relative z-10 flex flex-col items-center justify-center ">
         <h1 className="text-3xl md:text-5xl font-bold text-white text-center leading-tight mb-6">
           Turn Your Vision Into Reality<br />
