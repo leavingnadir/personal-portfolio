@@ -597,6 +597,7 @@ export const certifications = [
   { img: "./assets/certifications/lfc108-cybersecurity-essentials.png", name : "Cybersecurity Essentials" },
   { img: "./assets/certifications/lfs101-introduction-to-linux.png", name : "Introduction to Linux" },
   { img: "./assets/certifications/lfs162-introduction-to-devops-and-site-reliability-.png", name : "Introduction to DevOps and Site Reliability Engineering" },
+  { img: "./assets/certifications/lfs180-introduction-to-devsecops-for-managers.png", name : "Introduction to DevSecOps for Managers" },
   { img: "./assets/certifications/lfs169-introduction-to-gitops.png", name : "Introduction to GitOps" },
   { img: "./assets/certifications/LFEL1009-Getting-Started-with-OpenTofu.png", name : "Getting Started with OpenTofu" },
   { img: "./assets/certifications/lfs167-introduction-to-jenkins.png", name : "Introduction to Jenkins" },
