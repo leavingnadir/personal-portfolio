@@ -637,7 +637,7 @@ export const gallery = [
       src: "/assets/gallery/kas03.jpg",
       alt: "Landscape 2",
       type: "landscape",
-      title: "Outgoing Com",
+      title: "Kingswood Astronomical Society",
     },
     {
       src: "/assets/gallery/kits01.jpg",
@@ -656,6 +656,12 @@ export const gallery = [
       alt: "Landscape 6",
       type: "landscape",
       title: "SAGA'25",
+    },
+    {
+      src: "/assets/gallery/y1s2.jpg",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "Y1S2 SLIIT",
     },
 ];
 

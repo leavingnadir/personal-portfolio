@@ -57,6 +57,7 @@ export default function Stack() {
         items={[
           { src: "/assets/logos/nodejs-icon.svg", name: "Node.js" },
           { src: "/assets/logos/expressjs.svg", name: "Express" },
+          { src: "/assets/logos/Spring_Boot.png", name: "Spring Boot" },
           { src: "/assets/logos/Redux.svg", name: "Redux" },
           { src: "/assets/logos/GraphQL.svg", name: "GraphQL" },
         ]}
