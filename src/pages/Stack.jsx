@@ -104,6 +104,15 @@ export default function Stack() {
       />
 
       <StackSection
+        title="CyberSec"
+        items={[
+          { src: "/assets/logos/nmap.png", name: "Nmap" },
+          { src: "/assets/logos/Wireshark.png", name: "Wireshark" },
+          { src: "/assets/logos/cisco-packet-tracer.png", name: "Cisco Packet Tracer" },
+        ]}
+      />
+
+      <StackSection
         title="Libraries & Tools"
         items={[
           { src: "/assets/logos/react-query.svg", name: "React Query" },
