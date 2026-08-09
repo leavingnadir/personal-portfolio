@@ -395,10 +395,28 @@ export const experiences = [
   {
     title: "Web Developer",
     job: "Chasm Clothing",
-    date: "APR 2025 - FEB 2026",
+    date: "APR 2025 - MAY 2026",
     contents: [
       "Designed and developed the official Chasm Clothing website, ensuring a modern, responsive, and user-friendly interface.",
       "Focused on seamless navigation and performance optimization for better customer engagement.",
+    ],
+  },
+  {
+    title: "Freelance Video Editor",
+    job: "Ananta.ig",
+    date: "JUN 2026 - AUG 2026",
+    contents: [
+      "Worked as a remote freelance editor for Ananta IG, handling album and video editing across 2 separate projects to date. Edited and curated photo albums for events, ensuring consistent color grading, sequencing, and storytelling flow",
+      "Produced sports-focused Reels covering match highlights, key moments, and action sequences. Handled the full post-production pipeline: clip selection, pacing, transitions, color correction, and audio syncing",
+    ],
+  },
+  {
+    title: "Founder & CEO",
+    job: "Leaving Nadir LLP",
+    date: "JUL 2019 - PRESENT",
+    contents: [
+      "As the founder of Leaving Nadir, I lead the vision and development of next-generation digital solutions. My role involves bridging creativity and technology from concept design to full-stack implementation.",
+      "I oversee and contribute to projects across SaaS development, web and application engineering, cloud infrastructure, and information security, ensuring each product aligns with Leaving Nadir mission of shaping the future through new ideas.",
     ],
   },
 ];
@@ -586,6 +604,7 @@ export const certifications = [
   { img: "./assets/certifications/network-defense.png", name : "Network Defense" },
   { img: "./assets/certifications/endpoint-security.png", name : "Endpoint Security" },
   { img: "./assets/certifications/cyber-threat-management.png", name : "Cyber Threat Management" },
+  { img: "./assets/certifications/ICIP.png", name : "Introduction to Critical Infrastructure Protection" },
   { img: "./assets/certifications/ccep.png", name : "Certified Cybersecurity Educator Professional" },
   { img: "./assets/certifications/CPPS-badge.png", name : "Certified Pishing Prevent Specialist" },
   { img: "./assets/certifications/crpo-badge.png", name : "Certified Ransomware Protection Officer" },
