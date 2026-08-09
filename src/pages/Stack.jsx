@@ -66,6 +66,7 @@ export default function Stack() {
       <StackSection
         title="Databases"
         items={[
+          { src: "/assets/logos/MySQL.svg", name: "MySQL" },
           { src: "/assets/logos/PostgresSQL.svg", name: "PostgreSQL" },
           { src: "/assets/logos/mongodb-icon.svg", name: "MongoDB" },
           { src: "/assets/logos/neon.svg", name: "Neon" },
@@ -78,7 +79,7 @@ export default function Stack() {
           { src: "/assets/logos/javascript.svg", name: "JavaScript" },
           { src: "/assets/logos/typescript-icon.svg", name: "TypeScript" },
           { src: "/assets/logos/java.svg", name: "Java" },
-          { src: "/assets/logos/gopher.svg", name: "Go" },
+          //{ src: "/assets/logos/gopher.svg", name: "Go" },
           { src: "/assets/logos/Bash.svg", name: "Bash" },
           { src: "/assets/logos/Python.svg", name: "Python" },
         ]}
@@ -98,8 +99,8 @@ export default function Stack() {
           { src: "/assets/logos/SonarQube.svg", name: "SonarQube" },
           { src: "/assets/logos/ApacheMaven.svg", name: "Apache Maven" },
           { src: "/assets/logos/github-actions.svg", name: "GitHub Actions" },
-          { src: "/assets/logos/AWS.svg", name: "AWS" },
-          { src: "/assets/logos/Azure.svg", name: "Azure" },
+          //{ src: "/assets/logos/AWS.svg", name: "AWS" },
+          //{ src: "/assets/logos/Azure.svg", name: "Azure" },
         ]}
       />
 

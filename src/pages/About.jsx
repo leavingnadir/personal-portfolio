@@ -158,7 +158,7 @@ const About = () => {
         <div className="w-full text-center md:text-left mb-10">
           <p className="text-base sm:text-lg text-gray-400 mb-4">
             I’m <span className="font-semibold text-rose-400">Hirusha Ranaweera</span>, 
-            a 1st-year BSc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,
+            a 2nd-year BSc(Hons) Information Technology undergraduate at SLIIT, passionate about Full stack Web/SaaS Development,
             DevOps, Cloud, Security and CyberOps. Originally from Kandy and now living in Malabe.
           </p>
 

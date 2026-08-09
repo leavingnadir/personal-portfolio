@@ -678,10 +678,40 @@ export const gallery = [
       title: "SAGA'25",
     },
     {
+      src: "/assets/gallery/kru01.jpg",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "ACATALEPSY'23",
+    },
+    {
+      src: "/assets/gallery/kas02.JPG",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "SPHAERA'23",
+    },
+    {
+      src: "/assets/gallery/kss02.jpg",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "SAGA'25",
+    },
+    {
+      src: "/assets/gallery/kru02.jpg",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "EX-Co Installation Ceremony",
+    },
+    {
+      src: "/assets/gallery/kmn02.jpg",
+      alt: "Landscape 7",
+      type: "landscape",
+      title: "ASWENNA'24",
+    },
+    {
       src: "/assets/gallery/y1s2.jpg",
       alt: "Landscape 7",
       type: "landscape",
-      title: "Y1S2 SLIIT",
+      title: "Y1S2 Project Group SLIIT",
     },
 ];
 
