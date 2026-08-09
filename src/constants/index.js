@@ -358,6 +358,69 @@ export const myProjects = [
         path: "/assets/logos/nmap.png",
       }
     ],
+  },
+  {
+    id: 11,
+    title: "CipherVault – Password Manager in Python with AES Cryptography",
+    description:
+      "CipherVault is a lightweight, terminal-based password manager built entirely from scratch in Python.",
+    subDescription: [
+      "It was created as a proof-of-concept to explore how commercial password managers work under the hood from cryptographic key validation to custom encrypted file formats without relying on any third-party database engine.",
+    ],
+    href: "https://github.com/leavingnadir/CipherVault.git",
+    logo: "",
+    image: "/assets/projects/CipherVault.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/Python.svg",
+      }
+    ],
+  },
+  {
+    id: 12,
+    title: "EverGlow – Wedding Planning & Vendor Booking System",
+    description:
+      "EverGlow is a full-stack web application that streamlines wedding planning by connecting users with verified vendors and managing bookings, payments, and reviews through an intuitive UI.",
+    subDescription: [
+      "Developed as a SLIIT Y1 S2 OOP module group project, built using Java Spring Boot, Vite, Tailwind CSS, and PostgreSQL for a scalable and seamless user experience.",
+    ],
+    href: "https://github.com/leavingnadir/everglow.git",
+    logo: "",
+    image: "/assets/projects/Everglow.PNG",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/logos/java.svg",
+      },
+      {
+        id: 2,
+        name: "SpringBoot",
+        path: "/assets/logos/Spring_Boot.png",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "PostgresSQL",
+        path: "/assets/logos/PostgresSQL.svg",
+      },
+      {
+        id: 6,
+        name: "Neon",
+        path: "/assets/logos/neon.svg",
+      }
+    ],
   }
 ];
 
