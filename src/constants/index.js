@@ -491,7 +491,7 @@ export const educationData = [
     logo: "./assets/education/sliit.png",
     degree: "BSc (Hons) in Information Technology",
     university: "Sri Lanka Institute of Information Technology (SLIIT)",
-    result: "GPA: 2.6",
+    result: "CGPA: 2.77",
     year: "2024 – Present",
   },
   {

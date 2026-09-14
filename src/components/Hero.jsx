@@ -1,5 +1,9 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/prop-types */
 import { useEffect, useRef, useState, createElement, useMemo, useCallback } from "react";
 import { gsap } from "gsap";
+import { FiTerminal, FiShield, FiArrowRight } from "react-icons/fi";
 
 /* -------------------- TextType Component -------------------- */
 const TextType = ({
@@ -177,39 +181,123 @@ const TextType = ({
 export default function Hero() {
   return (
     <section
-      className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: "url('/assets/generated1.png')",
-      }}
+      className="relative min-h-screen flex items-center justify-center px-4 md:px-12 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
     >
-      <div className="absolute inset-0 bg-black/50 z-0"></div>
+      {/* Deep Immersive Gradients & Vignette */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-black via-black/80 to-midnight/60 z-0"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet/10 via-transparent to-transparent z-0 pointer-events-none"></div>
 
-      <div className="relative z-10 text-white max-w-3xl mt-[1rem]">
-        <p className="text-[clamp(1rem,1vw,3rem)] text-neutral-300 font-mono leading-relaxed">
-          👋 Hello There,
-        </p>
+      <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20">
+        
+        {/* Left Column: Main Identity & Terminal Typing */}
+        <div className="lg:col-span-8 text-left space-y-6">
+          
+          {/* Status Badge */}
+          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-midnight/80 border border-violet/30 backdrop-blur-md shadow-lg">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-neon"></span>
+            </span>
+            <span className="font-mono text-xs tracking-wider text-neutral-300 uppercase">
+              SYSTEM_STATUS: SECURE & ONLINE
+            </span>
+          </div>
 
-        <h2 className="text-4xl font-light">
-          Welcome to My Portfolio
-        </h2>
+          <div className="space-y-2">
+            <p className="font-mono text-violet text-sm md:text-base tracking-widest uppercase">
+              // HELLO_WORLD, MY NAME IS
+            </p>
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-mono text-white tracking-tight">
+              Hirusha <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet via-neon to-white">Ranaweera</span>
+            </h1>
+          </div>
 
-        <h3 className="text-[clamp(2rem,3.5vw,4.5rem)] font-light mb-3">
-          I'm Hirusha Ranaweera
-        </h3>
+          {/* Typing Role Box */}
+          <div className="p-4 rounded-2xl bg-midnight/60 border border-white/5 backdrop-blur-md max-w-2xl shadow-xl">
+            <div className="flex items-center gap-2 mb-2 pb-2 border-b border-white/5 font-mono text-xs text-neutral-500">
+              <FiTerminal className="text-violet" />
+              <span>ACTIVE_SPECIALIZATION_DAEMON</span>
+            </div>
+            <TextType
+              className="text-xl sm:text-2xl font-mono font-medium text-neon"
+              text={[
+                "Full-Stack Web & SaaS Architecture",
+                "DevSecOps & Cloud Infrastructure",
+                "Application Security & Pen-Testing",
+                "Distributed Systems & Web3 DApps"
+              ]}
+              typingSpeed={60}
+              pauseDuration={2000}
+              showCursor={true}
+              cursorCharacter="_"
+            />
+          </div>
 
-        <TextType
-          className="text-3xl md:text-3xl font-semibold text-rose-500"
-          text={[
-            "I do Full-Stack Dev",
-            "I do DevSecOps",
-            "I do Cloud Sec",
-            "I do Pen-Testing",
-          ]}
-          typingSpeed={75}
-          pauseDuration={1500}
-          showCursor={true}
-          cursorCharacter="|"
-        />
+          <p className="text-neutral-400 text-sm sm:text-base max-w-xl leading-relaxed">
+            SLIIT IT undergraduate, founder of Leaving Nadir LLP, and security enthusiast building robust, scalable digital ecosystems from Sri Lanka.
+          </p>
+
+          {/* Action CTAs */}
+          <div className="flex flex-wrap items-center gap-4 pt-4">
+            <a
+              href="../Projects"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-violet hover:bg-violet/80 text-white font-mono text-xs tracking-wider uppercase shadow-lg shadow-violet/20 transition-all hover:-translate-y-0.5"
+            >
+              <span>Explore Systems</span>
+              <FiArrowRight className="size-4" />
+            </a>
+
+            <a
+              href="../About"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-midnight/80 hover:bg-indigo/40 border border-white/10 text-neutral-300 hover:text-white font-mono text-xs tracking-wider uppercase backdrop-blur-md transition-all hover:-translate-y-0.5"
+            >
+              <FiShield className="size-4 text-violet" />
+              <span>Security Dossier</span>
+            </a>
+          </div>
+
+        </div>
+
+        {/* Right Column: Floating Telemetry Card */}
+        <div className="lg:col-span-4 hidden lg:flex justify-center">
+          <div className="relative w-full max-w-xs p-6 rounded-3xl bg-midnight/80 border border-white/10 backdrop-blur-xl shadow-2xl space-y-6">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-violet/10 rounded-full blur-2xl pointer-events-none" />
+
+            <div className="flex items-center justify-between pb-4 border-b border-white/5 font-mono text-xs text-neutral-400">
+              <span>TELEMETRY.SEC</span>
+              <span className="text-neon">LK_NODE</span>
+            </div>
+
+            <div className="space-y-4 font-mono text-xs">
+              <div className="p-3 rounded-xl bg-indigo/30 border border-white/5">
+                <span className="text-neutral-500 block mb-1">LOCATION</span>
+                <span className="text-white font-medium">Malabe / Kandy, LK</span>
+              </div>
+
+              <div className="p-3 rounded-xl bg-indigo/30 border border-white/5">
+                <span className="text-neutral-500 block mb-1">CURRENT_FOCUS</span>
+                <span className="text-neon font-medium">CyberOps & Cloud Sec</span>
+              </div>
+
+              <div className="p-3 rounded-xl bg-indigo/30 border border-white/5">
+                <span className="text-neutral-500 block mb-1">ENTERPRISE</span>
+                <span className="text-white font-medium">Leaving Nadir LLP</span>
+              </div>
+            </div>
+
+            <div className="pt-2">
+              <div className="w-full h-1.5 bg-indigo/40 rounded-full overflow-hidden">
+                <div className="w-4/5 h-full bg-gradient-to-r from-violet to-neon rounded-full animate-pulse" />
+              </div>
+              <div className="flex justify-between items-center mt-2 font-mono text-[10px] text-neutral-500">
+                <span>SYSTEM_INTEGRITY</span>
+                <span className="text-neon">99.9%</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
   );

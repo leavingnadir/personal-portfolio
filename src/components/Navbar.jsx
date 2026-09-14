@@ -1,5 +1,8 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { FiTerminal, FiMail } from "react-icons/fi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,21 +28,31 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="bg-[#030412] shadow-lg fixed w-full z-60">
-      <div className="flex justify-between items-center h-24 px-4 md:px-8 lg:px-12">
-        {/* Logo */}
-        <a href="/" className="text-white font-bold text-xl tracking-wide flex-shrink-0">
-          Hirusha Ranaweera
+    <header className="bg-midnight/90 backdrop-blur-xl border-b border-white/5 shadow-2xl fixed w-full top-0 z-[60]">
+      <div className="flex justify-between items-center h-24 px-4 md:px-8 lg:px-12 max-w-7xl mx-auto">
+        
+        {/* Logo / Monogram */}
+        <a href="/" className="group flex items-center gap-2.5 text-white font-mono font-bold text-lg tracking-wide flex-shrink-0">
+          <div className="w-8 h-8 rounded-lg bg-violet/20 border border-violet/40 flex items-center justify-center text-neon group-hover:scale-105 transition-transform duration-300">
+            <FiTerminal className="size-4" />
+          </div>
+          <span>Hirusha<span className="text-violet">.R</span></span>
         </a>
 
         {/* Desktop Menu */}
         {isDesktop && (
           <>
-            <nav className="ml-8 font-semibold text-base lg:text-lg">
-              <ul className="flex items-center space-x-4 lg:space-x-6">
+            <nav className="ml-8 font-mono text-xs uppercase tracking-wider">
+              <ul className="flex items-center space-x-6 lg:space-x-8">
                 {navLinks.map((link) => (
-                  <li key={link.name} className="hover:text-rose-600 transition-colors duration-200">
-                    <a href={link.href}>{link.name}</a>
+                  <li key={link.name} className="relative group py-1">
+                    <a 
+                      href={link.href} 
+                      className="text-neutral-400 group-hover:text-neon transition-colors duration-200"
+                    >
+                      {link.name}
+                    </a>
+                    <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-violet to-neon group-hover:w-full transition-all duration-300" />
                   </li>
                 ))}
               </ul>
@@ -47,8 +60,9 @@ const Navbar = () => {
 
             <div>
               <a href="mailto:hello.hirusharanaweera@gmail.com">
-                <button className="bg-rose-600 hover:bg-rose-800 text-white font-bold px-4 xl:px-6 py-2 xl:py-3 rounded transition-colors duration-200">
-                  Contact Me
+                <button className="inline-flex items-center gap-2 bg-violet hover:bg-violet/80 text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 rounded-xl shadow-lg shadow-violet/20 transition-all duration-300 hover:-translate-y-0.5 cursor-pointer">
+                  <FiMail className="size-3.5" />
+                  <span>Contact Me</span>
                 </button>
               </a>
             </div>
@@ -57,9 +71,12 @@ const Navbar = () => {
 
         {/* Hamburger Icon for Mobile */}
         {!isDesktop && (
-          <div className="flex items-center relative z-[60]">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-white text-3xl focus:outline-none">
-              {isOpen ? <HiX /> : <HiMenu />}
+          <div className="flex items-center relative z-[70]">
+            <button 
+              onClick={() => setIsOpen(!isOpen)} 
+              className="w-10 h-10 flex items-center justify-center rounded-xl bg-midnight border border-white/10 text-white text-2xl focus:outline-none hover:border-violet/50 transition-colors"
+            >
+              {isOpen ? <HiX className="text-neon" /> : <HiMenu />}
             </button>
           </div>
         )}
@@ -67,23 +84,23 @@ const Navbar = () => {
 
       {/* Mobile Fullscreen Menu */}
       {!isDesktop && isOpen && (
-        <div className="fixed inset-0 bg-[#030412] flex flex-col justify-center items-center text-center z-[50]">
-          <ul className="flex flex-col space-y-6 text-white text-xl font-semibold">
+        <div className="fixed inset-0 bg-midnight/95 backdrop-blur-2xl flex flex-col justify-center items-center text-center z-[60] px-6">
+          <ul className="flex flex-col space-y-5 text-white font-mono text-base uppercase tracking-wider">
             {navLinks.map((link, index) => (
               <li
                 key={link.name}
                 className="opacity-0 transform -translate-y-4 animate-fade-down"
                 style={{
-                  animationDelay: `${index * 100}ms`,
+                  animationDelay: `${index * 60}ms`,
                   animationFillMode: "forwards",
                 }}
               >
                 <a
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="hover:text-rose-600 transition-colors duration-200"
+                  className="text-neutral-400 hover:text-neon transition-colors duration-200"
                 >
-                  {link.name}
+                  // {link.name}
                 </a>
               </li>
             ))}
@@ -92,14 +109,15 @@ const Navbar = () => {
           {/* Contact Button */}
           <a
             href="mailto:hello.hirusharanaweera@gmail.com"
-            className="mt-8 opacity-0 transform -translate-y-4 animate-fade-down"
-            style={{ animationDelay: `${navLinks.length * 100}ms`, animationFillMode: "forwards" }}
+            className="mt-10 opacity-0 transform -translate-y-4 animate-fade-down"
+            style={{ animationDelay: `${navLinks.length * 60}ms`, animationFillMode: "forwards" }}
           >
             <button
-              className="bg-rose-600 hover:bg-rose-800 text-white font-bold px-6 py-3 rounded transition-colors duration-200"
+              className="inline-flex items-center gap-2 bg-violet hover:bg-violet/80 text-white font-mono text-xs tracking-widest uppercase px-6 py-3 rounded-xl shadow-lg shadow-violet/25 transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              Contact Me
+              <FiMail className="size-4" />
+              <span>Contact Me</span>
             </button>
           </a>
         </div>

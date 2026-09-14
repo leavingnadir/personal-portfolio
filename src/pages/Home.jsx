@@ -1,13 +1,13 @@
 import Hero from "../components/Hero";
-//import Personas from "../components/Personas";
-//import SpotlightCards from "../components/SpotlightCards";
+import EcosystemMatrix from "../components/EcosystemMatrix";
+import BentoFeatures from "../components/BentoFeatures";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      {/* <SpotlightCards/> */}
-      {/*<Personas/>*/}
+      <EcosystemMatrix />
+      <BentoFeatures />
     </>
   );
 }
