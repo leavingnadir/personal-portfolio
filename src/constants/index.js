@@ -508,7 +508,7 @@ export const educationData = [
     degree: "DevOps Master Course",
     university: "Developers Stack Academy",
     result: "Results: ",
-    year: "2025 – Present",
+    year: "2025 – 2026",
   },
   {
     id: 4,
