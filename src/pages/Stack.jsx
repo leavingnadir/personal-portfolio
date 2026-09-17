@@ -141,13 +141,17 @@ export default function Stack() {
         <StackSection
           title="Libraries & Tools"
           items={[
+            { src: "/assets/logos/jupyter.svg", name: "Jupyter Notebook" },
+            { src: "/assets/logos/visual-studio-code.svg", name: "Visual Studio Code" },
+            { src: "/assets/logos/intellij-idea.svg", name: "IntelliJ IDEA" },
+            { src: "/assets/logos/pycharm.svg", name: "PyCharm" },
             { src: "/assets/logos/react-query.svg", name: "React Query" },
             { src: "/assets/logos/Jest.svg", name: "Jest" },
+            { src: "/assets/logos/Ubuntu.svg", name: "Ubuntu VM" },
             { src: "/assets/logos/faker.svg", name: "Faker" },
             { src: "/assets/logos/zustand.svg", name: "Zustand" },
             { src: "/assets/logos/better-auth.svg", name: "Better Auth" },
             { src: "/assets/logos/shadcn.svg", name: "Shadcn UI" },
-            { src: "/assets/logos/Ubuntu.svg", name: "Ubuntu VM" },
           ]}
         />
       </div>
