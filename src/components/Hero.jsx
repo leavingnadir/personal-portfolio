@@ -180,11 +180,9 @@ const TextType = ({
 /* -------------------- Hero Component -------------------- */
 export default function Hero() {
   return (
-    <section
-      className="relative min-h-screen flex items-center justify-center px-4 md:px-12 overflow-hidden isolate bg-cover bg-center bg-no-repeat"
-    >
+    <section className="relative min-h-screen flex items-center justify-center px-4 md:px-12 overflow-hidden isolate bg-cover bg-center bg-no-repeat bg-[url('../../public/assets/hero-bg.png')]">
       {/* Deep Immersive Gradients & Vignette */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-black via-black/80 to-midnight/60 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-tr from-black via-black/60 to-midnight/10 z-0"></div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet/10 via-transparent to-transparent z-0 pointer-events-none"></div>
 
       <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20">

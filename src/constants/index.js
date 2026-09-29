@@ -421,6 +421,79 @@ export const myProjects = [
         path: "/assets/logos/neon.svg",
       }
     ],
+  },
+  {
+    id: 12,
+    title: "AquaSafari – Web-Based Boat Safari Trip Management System",
+    description:
+      "Designed and developed as a SLIIT Y2S1 SE x DDD module group project a full-stack Java web application to digitize boat safari operations in Sri Lanka, replacing manual, phone-based booking processes with a centralized, secure platform.",
+    subDescription: [
+      "Built using Agile methodology (Scrum) with sprint-based delivery across a 6-member team, each owning a core system function (User, Boat, Trip, Booking, Payment and Feedback Management).",
+    ],
+    href: "https://github.com/leavingnadir/aquasafari.git",
+    logo: "",
+    image: "/assets/projects/aquasafari.PNG",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/logos/java.svg",
+      },
+      {
+        id: 2,
+        name: "SpringBoot",
+        path: "/assets/logos/Spring_Boot.png",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "MySQL",
+        path: "/assets/logos/MySQL.svg",
+      },
+      {
+        id: 6,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      }
+    ],
+  },
+  {
+    id: 12,
+    title: "DermaCheck — Skin Lesion Diagnosis Triage (Classical ML)",
+    description:
+      "DermaCheck is an skin lesion classification system developed to support early dermatology triage by analyzing dermatoscopic images and predicting lesion categories.",
+    subDescription: [
+      "The project leverages the HAM10000 dataset (10,015 images across seven diagnostic classes) to assist healthcare professionals in prioritizing high-risk cases for faster specialist referrals. It is designed as a clinical decision-support prototype rather than a diagnostic replacement.",
+    ],
+    href: "https://github.com/leavingnadir/dermacheck.git",
+    logo: "",
+    image: "/assets/projects/DermaCheck.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/Python.svg",
+      },
+      {
+        id: 2,
+        name: "Jupyter Notebook",
+        path: "/assets/logos/jupyter.svg",
+      },
+      {
+        id: 3,
+        name: "Pycharm",
+        path: "/assets/logos/pycharm.svg",
+      },
+    ],
   }
 ];
 
