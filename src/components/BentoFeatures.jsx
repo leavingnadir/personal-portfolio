@@ -2,11 +2,7 @@ import { FiShield, FiCpu, FiTerminal, FiDatabase, FiLock, FiActivity } from "rea
 
 export default function BentoFeatures() {
   return (
-    <section className="relative w-full py-32 px-4 md:px-12 bg-midnight overflow-hidden text-white">
-      {/* Background Glow Accents */}
-      <div className="absolute top-1/4 left-10 w-96 h-96 bg-violet/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-neon/5 rounded-full blur-[140px] pointer-events-none" />
-
+    <section className="relative w-full py-32 px-4 md:px-12 overflow-hidden text-white">
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Section Heading */}

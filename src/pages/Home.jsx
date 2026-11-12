@@ -1,12 +1,13 @@
 import Hero from "../components/Hero";
-import EcosystemMatrix from "../components/EcosystemMatrix";
 import BentoFeatures from "../components/BentoFeatures";
-
+import GithubActivity from "../components/GithubActivity";
+import NetworkArchitecture from "../components/NetworkArchitecture";
 export default function Home() {
   return (
     <>
       <Hero />
-      <EcosystemMatrix />
+      <GithubActivity />
+      <NetworkArchitecture />
       <BentoFeatures />
     </>
   );
