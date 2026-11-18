@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import Hero from "../components/Hero";
 import StatsSection from "../components/StatsSection";
+import RolesSection from "../components/RolesSection";
 
 const GithubActivity = lazy(() => import("../components/GithubActivity"));
 const Resume = lazy(() => import("../components/resume"));
@@ -42,6 +43,7 @@ export default function Home() {
         />
 
         <Hero />
+        <RolesSection />
         <StatsSection />
 
         <Suspense fallback={<div className="h-32" />}>
