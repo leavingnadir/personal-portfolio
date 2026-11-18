@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { educationData } from "../constants";
+import { educationData, extraCurricularData } from "../constants";
 
 export default function Education() {
   return (
-    <section className="py-24 max-w-6xl mx-auto px-4 mb-20 relative mt-10" id="education">
+    <section className="pt-24 pb-8 max-w-6xl mx-auto px-4 mb-6 relative mt-10" id="education">
       <div className="c-space">
         
         {/* Section Heading */}
@@ -59,6 +59,59 @@ export default function Education() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Extra-Curricular Activities Sub-Section */}
+        <div className="mt-20 pt-16 border-t border-white/10" id="extracurricular">
+          <div className="text-center mb-14">
+            <span className="text-violet uppercase tracking-widest text-xs font-mono block mb-3">
+              // LEADERSHIP &amp; SOCIETIES
+            </span>
+            <h3
+              className="text-3xl md:text-5xl uppercase text-white tracking-tight"
+              style={{ fontFamily: "PPSupplyMono" }}
+            >
+              Extra-Curricular Activities
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {extraCurricularData.map((activity) => (
+              <div
+                key={activity.id}
+                className="group relative p-6 md:p-8 rounded-2xl bg-midnight border border-white/5 hover:border-violet/50 shadow-xl transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden"
+              >
+                {/* Hover Ambient Glow */}
+                <div className="absolute inset-0 bg-gradient-to-br from-violet/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+
+                <div className="relative z-10">
+                  {/* Header: Society Logo & Duration Badge */}
+                  <div className="flex items-center justify-between gap-4 mb-6">
+                    <div className="w-14 h-14 rounded-xl overflow-hidden bg-indigo/80 border border-white/10 p-2 flex items-center justify-center shrink-0 group-hover:border-violet/40 transition-colors">
+                      <img
+                        src={activity.logo}
+                        alt={activity.society}
+                        className="w-full h-full object-contain filter brightness-90 group-hover:brightness-100 transition-all"
+                      />
+                    </div>
+                    <span className="px-3 py-1 rounded-md bg-indigo border border-white/10 font-mono text-xs text-neutral-300">
+                      {activity.year}
+                    </span>
+                  </div>
+
+                  {/* Role & Society Name */}
+                  <div>
+                    <h4 className="text-lg font-mono font-medium text-white mb-2 group-hover:text-neon transition-colors leading-snug">
+                      {activity.role}
+                    </h4>
+                    <p className="text-violet font-mono text-xs tracking-wider uppercase">
+                      {activity.society}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

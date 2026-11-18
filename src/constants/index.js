@@ -570,7 +570,7 @@ export const educationData = [
   {
     id: 2,
     logo: "./assets/education/kingswood.png",
-    degree: "A/L Engineering Technology Stream",
+    degree: "A/L Engineering Technology Stream & Primary Education",
     university: "Kingswood College, Kandy",
     result: "Results: BCC",
     year: "2011 – 2025",
@@ -607,6 +607,106 @@ export const educationData = [
     result: "Result: Passed",
     year: "2022 – 2023",
   },
+];
+
+
+export const extraCurricularData = [
+  {
+    id: "ec-01",
+    role: "Member of Data Analysis & Software Division",
+    society: "SEDS SLIIT",
+    institution: "SLIIT",
+    year: "2026 - Present",
+    logo: "/assets/education/seds-sliit.png",
+  },
+  {
+    id: "ec-02",
+    role: "Editor in Chief",
+    society: "SEDS Juniors",
+    institution: "SEDS",
+    year: "2024 - 2025",
+    logo: "/assets/education/seds-jr.png",
+  },
+  {
+    id: "ec-03",
+    role: "President",
+    society: "Kingswood Astronomical Society",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kas.png",
+  },
+  {
+    id: "ec-04",
+    role: "Secretary",
+    society: "Kingswood Research Unit",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kru.png",
+  },
+  {
+    id: "ec-05",
+    role: "Vice President",
+    society: "Kingswood Media Network",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kmn.png",
+  },
+  {
+    id: "ec-06",
+    role: "Vice President",
+    society: "Kingswood Electronic Club",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kes.png",
+  },
+  {
+    id: "ec-07",
+    role: "Head Of Media",
+    society: "Kingswood Science Society",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kss.png",
+  },
+  {
+    id: "ec-08",
+    role: "Main Coordinator",
+    society: "Kingswood IT Society",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kits.png",
+  },
+  {
+    id: "ec-09",
+    role: "Chief Editor",
+    society: "Kingswood YGSO",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/ygso.png",
+  },
+  {
+    id: "ec-10",
+    role: "Chief Editor",
+    society: "Kingswood Aviation",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/aviation.png",
+  },
+  {
+    id: "ec-11",
+    role: "Chief Editor",
+    society: "Kingswood Arts Society",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/arts.png",
+  },
+  {
+    id: "ec-12",
+    role: "Digital Manager",
+    society: "Kingswood Enterpreneur's Club",
+    institution: "Kingswood College, Kandy",
+    year: "2024 - 2025",
+    logo: "/assets/education/kec.png",
+  }
 ];
 
 
