@@ -14,7 +14,7 @@ export default function GithubActivity() {
         {/* Section Title */}
         <div>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight uppercase" style={{ fontFamily: "PPSupplyMono" }}>
-            Code in the wild
+            GitHub Activity
           </h2>
         </div>
       </div>

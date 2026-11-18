@@ -1,14 +1,13 @@
 import Hero from "../components/Hero";
-import BentoFeatures from "../components/BentoFeatures";
+import Resume from "../components/resume";
 import GithubActivity from "../components/GithubActivity";
-import NetworkArchitecture from "../components/NetworkArchitecture";
+
 export default function Home() {
   return (
     <>
       <Hero />
+      <Resume />
       <GithubActivity />
-      <NetworkArchitecture />
-      <BentoFeatures />
     </>
   );
 }
