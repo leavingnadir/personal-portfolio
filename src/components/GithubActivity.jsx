@@ -2,9 +2,8 @@ import { FiGithub, FiGitCommit, FiGitPullRequest, FiFolder, FiStar } from "react
 
 export default function GithubActivity() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-12 py-32 text-white" id="github-activity">
+    <section className="max-w-6xl mx-auto px-4 sm:px-8 py-12 md:py-16 text-white" id="github-activity">
       {/* Main Activity Card */}
-      {/* Uses your 'grid-black-color' class for the sleek gradient background */}
       <div className="grid-black-color relative w-full overflow-hidden flex flex-col lg:flex-row gap-10 justify-between items-center !p-8 sm:!p-10 shadow-2xl">
         
         {/* Background Watermark (Giant Octocat) */}
@@ -27,7 +26,7 @@ export default function GithubActivity() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             
             {/* Stat 1: Commits */}
-            <div className="bg-midnight/60 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors backdrop-blur-sm">
+            <div className="bg-midnight/85 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors">
               <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 mb-3 uppercase tracking-wider">
                 <FiGitCommit className="size-4" />
                 <span>Commits</span>
@@ -36,7 +35,7 @@ export default function GithubActivity() {
             </div>
 
             {/* Stat 2: PRs */}
-            <div className="bg-midnight/60 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors backdrop-blur-sm">
+            <div className="bg-midnight/85 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors">
               <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 mb-3 uppercase tracking-wider">
                 <FiGitPullRequest className="size-4" />
                 <span>PRs</span>
@@ -45,7 +44,7 @@ export default function GithubActivity() {
             </div>
 
             {/* Stat 3: Repositories */}
-            <div className="bg-midnight/60 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors backdrop-blur-sm">
+            <div className="bg-midnight/85 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors">
               <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 mb-3 uppercase tracking-wider">
                 <FiFolder className="size-4" />
                 <span>Repositories</span>
@@ -54,7 +53,7 @@ export default function GithubActivity() {
             </div>
 
             {/* Stat 4: Stars */}
-            <div className="bg-midnight/60 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors backdrop-blur-sm">
+            <div className="bg-midnight/85 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors">
               <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 mb-3 uppercase tracking-wider">
                 <FiStar className="size-4" />
                 <span>Stars</span>
@@ -71,7 +70,7 @@ export default function GithubActivity() {
             href="https://github.com/leavingnadir"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-white/10 bg-white/5 hover:bg-violet/10 hover:border-violet/50 font-mono text-sm tracking-wider text-white transition-all duration-300 backdrop-blur-md whitespace-nowrap"
+            className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-white/10 bg-white/5 hover:bg-violet/10 hover:border-violet/50 font-mono text-sm tracking-wider text-white transition-all duration-300 whitespace-nowrap"
           >
             View GitHub Profile
           </a>

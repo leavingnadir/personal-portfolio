@@ -2,7 +2,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useEffect, useRef, useState, createElement, useMemo, useCallback } from "react";
-import { gsap } from "gsap";
 import { FiTerminal, FiShield, FiArrowRight, FiChevronDown } from "react-icons/fi";
 
 /* -------------------- TextType Component -------------------- */
@@ -19,7 +18,6 @@ const TextType = ({
   hideCursorWhileTyping = false,
   cursorCharacter = "|",
   cursorClassName = "",
-  cursorBlinkDuration = 0.5,
   textColors = [],
   variableSpeed,
   onSentenceComplete,
@@ -32,7 +30,6 @@ const TextType = ({
   const [isDeleting, setIsDeleting] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(!startOnVisible);
-  const cursorRef = useRef(null);
   const containerRef = useRef(null);
 
   const textArray = useMemo(() => (Array.isArray(text) ? text : [text]), [text]);
@@ -52,8 +49,8 @@ const TextType = ({
     if (!startOnVisible || !containerRef.current) return;
 
     const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
+      (entries) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setIsVisible(true);
           }
@@ -65,19 +62,6 @@ const TextType = ({
     observer.observe(containerRef.current);
     return () => observer.disconnect();
   }, [startOnVisible]);
-
-  useEffect(() => {
-    if (showCursor && cursorRef.current) {
-      gsap.set(cursorRef.current, { opacity: 1 });
-      gsap.to(cursorRef.current, {
-        opacity: 0,
-        duration: cursorBlinkDuration,
-        repeat: -1,
-        yoyo: true,
-        ease: "power2.inOut",
-      });
-    }
-  }, [showCursor, cursorBlinkDuration]);
 
   useEffect(() => {
     if (!isVisible) return;
@@ -101,20 +85,20 @@ const TextType = ({
             onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
           }
 
-          setCurrentTextIndex(prev => (prev + 1) % textArray.length);
+          setCurrentTextIndex((prev) => (prev + 1) % textArray.length);
           setCurrentCharIndex(0);
           timeout = setTimeout(() => {}, pauseDuration);
         } else {
           timeout = setTimeout(() => {
-            setDisplayedText(prev => prev.slice(0, -1));
+            setDisplayedText((prev) => prev.slice(0, -1));
           }, deletingSpeed);
         }
       } else {
         if (currentCharIndex < processedText.length) {
           timeout = setTimeout(
             () => {
-              setDisplayedText(prev => prev + processedText[currentCharIndex]);
-              setCurrentCharIndex(prev => prev + 1);
+              setDisplayedText((prev) => prev + processedText[currentCharIndex]);
+              setCurrentCharIndex((prev) => prev + 1);
             },
             variableSpeed ? getRandomSpeed() : typingSpeed
           );
@@ -166,8 +150,7 @@ const TextType = ({
     </span>,
     showCursor && (
       <span
-        ref={cursorRef}
-        className={`ml-1 inline-block opacity-100 ${
+        className={`ml-1 inline-block animate-pulse ${
           shouldHideCursor ? "hidden" : ""
         } ${cursorClassName}`}
       >
@@ -180,14 +163,14 @@ const TextType = ({
 /* -------------------- Hero Component -------------------- */
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 md:px-12 overflow-hidden isolate">
-      <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20 pb-24">
+    <section className="relative min-h-[88vh] flex items-center justify-center px-4 md:px-12 overflow-hidden isolate">
+      <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-24 pb-20">
         
         {/* Left Column: Main Identity & Terminal Typing */}
         <div className="lg:col-span-8 text-left space-y-6">
           
           {/* Status Badge */}
-          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-midnight/80 border border-violet/30 backdrop-blur-md shadow-lg">
+          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-midnight/95 md:bg-midnight/80 border border-violet/30 md:backdrop-blur-md shadow-lg">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-neon"></span>
@@ -202,22 +185,25 @@ export default function Hero() {
               // HELLO_WORLD, MY NAME IS
             </p>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-mono text-white tracking-tight">
-              Hirusha <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet via-neon to-white">Ranaweera</span>
+              Hirusha{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet via-neon to-white">
+                Ranaweera
+              </span>
             </h1>
           </div>
 
           {/* Typing Role Box */}
-          <div className="p-4 rounded-2xl bg-midnight/60 border border-white/5 backdrop-blur-md max-w-2xl shadow-xl">
+          <div className="p-4 rounded-2xl bg-midnight/90 md:bg-midnight/60 border border-white/5 md:backdrop-blur-md max-w-2xl shadow-xl">
             <div className="flex items-center gap-2 mb-2 pb-2 border-b border-white/5 font-mono text-xs text-neutral-500">
               <FiTerminal className="text-violet" />
               <span>ACTIVE_SPECIALIZATION_DAEMON</span>
             </div>
             <TextType
-              className="text-xl sm:text-2xl font-mono font-medium text-neon"
+              className="text-lg sm:text-2xl font-mono font-medium text-neon"
               text={[
                 "DevSecOps & Cloud Infrastructure",
                 "Application Security & Network Engineering",
-                "Distributed Systems & Web3 DApps"
+                "Distributed Systems & Web3 DApps",
               ]}
               typingSpeed={60}
               pauseDuration={2000}
@@ -231,7 +217,7 @@ export default function Hero() {
           </p>
 
           {/* Action CTAs */}
-          <div className="flex flex-wrap items-center gap-4 pt-4">
+          <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
               href="../Projects"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-violet hover:bg-violet/80 text-white font-mono text-xs tracking-wider uppercase shadow-lg shadow-violet/20 transition-all hover:-translate-y-0.5"
@@ -242,7 +228,7 @@ export default function Hero() {
 
             <a
               href="../About"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-midnight/80 hover:bg-indigo/40 border border-white/10 text-neutral-300 hover:text-white font-mono text-xs tracking-wider uppercase backdrop-blur-md transition-all hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-midnight/95 md:bg-midnight/80 hover:bg-indigo/40 border border-white/10 text-neutral-300 hover:text-white font-mono text-xs tracking-wider uppercase md:backdrop-blur-md transition-all hover:-translate-y-0.5"
             >
               <FiShield className="size-4 text-violet" />
               <span>Security Dossier</span>
@@ -297,12 +283,12 @@ export default function Hero() {
       <a
         href="#stats"
         aria-label="Scroll down to metrics"
-        className="group absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1.5 cursor-pointer"
+        className="group absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1 cursor-pointer"
       >
         <span className="font-mono text-[10px] tracking-[0.25em] uppercase text-neutral-500 group-hover:text-neon transition-colors">
           SCROLL_DOWN
         </span>
-        <div className="w-5 h-8 rounded-full border border-white/15 group-hover:border-violet/60 bg-midnight/70 backdrop-blur-md flex justify-center pt-1.5 shadow-lg transition-colors">
+        <div className="w-5 h-7 rounded-full border border-white/15 group-hover:border-violet/60 bg-midnight/90 md:bg-midnight/70 md:backdrop-blur-md flex justify-center pt-1.5 shadow-lg transition-colors">
           <span className="w-1 h-1.5 rounded-full bg-neon animate-bounce" />
         </div>
         <FiChevronDown className="size-4 text-violet group-hover:text-neon group-hover:translate-y-0.5 transition-all" />

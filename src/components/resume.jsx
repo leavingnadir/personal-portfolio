@@ -15,14 +15,14 @@ export default function ResumeSection() {
       id="resume"
       className="relative py-16 md:py-20 px-4 overflow-hidden flex flex-col items-center justify-center text-center"
     >
-      {/* Subtle Ambient Center Glow */}
-      <div className="absolute w-[500px] h-[220px] bg-violet/15 rounded-full blur-[120px] pointer-events-none" />
+      {/* Subtle Ambient Center Glow (Desktop Only) */}
+      <div className="hidden md:block absolute w-[500px] h-[220px] bg-violet/15 rounded-full blur-[120px] pointer-events-none" />
 
       {/* Decorative Floating Glass Accents */}
-      <div className="hidden md:flex items-center justify-center w-12 h-12 rounded-2xl bg-midnight/80 border border-white/10 rotate-12 absolute top-24 left-[18%] shadow-xl backdrop-blur-md text-violet/60 pointer-events-none">
+      <div className="hidden md:flex items-center justify-center w-12 h-12 rounded-2xl bg-midnight/80 border border-white/10 rotate-12 absolute top-14 left-[18%] shadow-xl backdrop-blur-md text-violet/60 pointer-events-none">
         <FiFileText className="size-5" />
       </div>
-      <div className="hidden md:flex items-center justify-center w-14 h-14 rounded-2xl bg-midnight/80 border border-violet/20 -rotate-12 absolute bottom-24 right-[18%] shadow-xl backdrop-blur-md text-neon/60 pointer-events-none">
+      <div className="hidden md:flex items-center justify-center w-14 h-14 rounded-2xl bg-midnight/80 border border-violet/20 -rotate-12 absolute bottom-14 right-[18%] shadow-xl backdrop-blur-md text-neon/60 pointer-events-none">
         <FiDownload className="size-5" />
       </div>
 
@@ -56,15 +56,15 @@ export default function ResumeSection() {
         {/* Left Horizontal Light Flare */}
         <div className="relative flex-1 flex items-center">
           <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-violet to-neon" />
-          <div className="absolute inset-x-0 h-5 bg-gradient-to-r from-transparent via-violet/40 to-neon/70 blur-md pointer-events-none" />
+          <div className="hidden sm:block absolute inset-x-0 h-5 bg-gradient-to-r from-transparent via-violet/40 to-neon/70 blur-md pointer-events-none" />
         </div>
 
         {/* Center Luminous Pill CTA Button */}
         <a
-          href="/assets/Hirusha_Ranaweera_Resume.pdf"
+          href="/assets/Hirusha_Ranaweera.pdf"
           download="Hirusha_Ranaweera_Resume.pdf"
           onClick={handleDownload}
-          className="group relative flex items-center justify-between gap-6 sm:gap-12 px-7 sm:px-9 py-4 sm:py-5 rounded-full bg-midnight border border-neon/80 shadow-[0_0_35px_rgba(139,92,246,0.7),0_0_14px_rgba(192,132,252,0.85)] hover:shadow-[0_0_50px_rgba(139,92,246,0.95),0_0_22px_rgba(255,255,255,0.6)] hover:scale-[1.02] transition-all duration-300 cursor-pointer shrink-0"
+          className="group relative flex items-center justify-between gap-6 sm:gap-12 px-7 sm:px-9 py-4 sm:py-5 rounded-full bg-midnight border border-neon/80 shadow-[0_0_24px_rgba(139,92,246,0.55)] md:shadow-[0_0_35px_rgba(139,92,246,0.7),0_0_14px_rgba(192,132,252,0.85)] hover:shadow-[0_0_50px_rgba(139,92,246,0.95),0_0_22px_rgba(255,255,255,0.6)] hover:scale-[1.02] transition-all duration-300 cursor-pointer shrink-0"
         >
           <span className="font-mono text-xs sm:text-sm text-neutral-200 group-hover:text-white tracking-wide">
             {downloaded
@@ -84,7 +84,7 @@ export default function ResumeSection() {
         {/* Right Horizontal Light Flare */}
         <div className="relative flex-1 flex items-center">
           <div className="w-full h-[2px] bg-gradient-to-l from-transparent via-violet to-neon" />
-          <div className="absolute inset-x-0 h-5 bg-gradient-to-l from-transparent via-violet/40 to-neon/70 blur-md pointer-events-none" />
+          <div className="hidden sm:block absolute inset-x-0 h-5 bg-gradient-to-l from-transparent via-violet/40 to-neon/70 blur-md pointer-events-none" />
         </div>
       </div>
     </section>
