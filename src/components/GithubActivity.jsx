@@ -3,22 +3,6 @@ import { FiGithub, FiGitCommit, FiGitPullRequest, FiFolder, FiStar } from "react
 export default function GithubActivity() {
   return (
     <section className="max-w-7xl mx-auto px-4 md:px-12 py-32 text-white" id="github-activity">
-      
-      {/* Header Section */}
-      <div className="flex items-center gap-6 mb-10">
-        {/* Pulsing Accent Dot */}
-        <div className="flex items-center justify-center w-12 h-12 rounded-full border border-violet/30 bg-violet/5 shrink-0">
-          <div className="w-2.5 h-2.5 rounded-full bg-neon shadow-[0_0_10px_#c084fc]"></div>
-        </div>
-        
-        {/* Section Title */}
-        <div>
-          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight uppercase" style={{ fontFamily: "PPSupplyMono" }}>
-            GitHub Activity
-          </h2>
-        </div>
-      </div>
-
       {/* Main Activity Card */}
       {/* Uses your 'grid-black-color' class for the sleek gradient background */}
       <div className="grid-black-color relative w-full overflow-hidden flex flex-col lg:flex-row gap-10 justify-between items-center !p-8 sm:!p-10 shadow-2xl">

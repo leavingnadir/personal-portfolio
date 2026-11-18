@@ -13,7 +13,7 @@ export default function ResumeSection() {
   return (
     <section
       id="resume"
-      className="relative py-32 px-4 overflow-hidden flex flex-col items-center justify-center text-center bg-primary"
+      className="relative py-16 md:py-20 px-4 overflow-hidden flex flex-col items-center justify-center text-center"
     >
       {/* Subtle Ambient Center Glow */}
       <div className="absolute w-[500px] h-[220px] bg-violet/15 rounded-full blur-[120px] pointer-events-none" />

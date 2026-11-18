@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useRef, useState, createElement, useMemo, useCallback } from "react";
 import { gsap } from "gsap";
-import { FiTerminal, FiShield, FiArrowRight } from "react-icons/fi";
+import { FiTerminal, FiShield, FiArrowRight, FiChevronDown } from "react-icons/fi";
 
 /* -------------------- TextType Component -------------------- */
 const TextType = ({
@@ -181,7 +181,7 @@ const TextType = ({
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 md:px-12 overflow-hidden isolate">
-      <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20">
+      <div className="relative z-10 max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20 pb-24">
         
         {/* Left Column: Main Identity & Terminal Typing */}
         <div className="lg:col-span-8 text-left space-y-6">
@@ -292,6 +292,21 @@ export default function Hero() {
         </div>
 
       </div>
+
+      {/* Bottom Scroll Down Indicator */}
+      <a
+        href="#stats"
+        aria-label="Scroll down to metrics"
+        className="group absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1.5 cursor-pointer"
+      >
+        <span className="font-mono text-[10px] tracking-[0.25em] uppercase text-neutral-500 group-hover:text-neon transition-colors">
+          SCROLL_DOWN
+        </span>
+        <div className="w-5 h-8 rounded-full border border-white/15 group-hover:border-violet/60 bg-midnight/70 backdrop-blur-md flex justify-center pt-1.5 shadow-lg transition-colors">
+          <span className="w-1 h-1.5 rounded-full bg-neon animate-bounce" />
+        </div>
+        <FiChevronDown className="size-4 text-violet group-hover:text-neon group-hover:translate-y-0.5 transition-all" />
+      </a>
     </section>
   );
 }
