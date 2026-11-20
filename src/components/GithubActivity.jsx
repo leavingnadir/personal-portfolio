@@ -29,9 +29,9 @@ export default function GithubActivity() {
             <div className="bg-midnight/85 border border-white/5 rounded-xl p-5 hover:border-violet/30 transition-colors">
               <div className="flex items-center gap-2 font-mono text-xs text-neutral-500 mb-3 uppercase tracking-wider">
                 <FiGitCommit className="size-4" />
-                <span>Commits</span>
+                <span>Contributions</span>
               </div>
-              <div className="text-2xl sm:text-3xl font-bold">332+</div>
+              <div className="text-2xl sm:text-3xl font-bold">340+</div>
             </div>
 
             {/* Stat 2: PRs */}

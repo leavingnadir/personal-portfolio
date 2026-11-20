@@ -833,6 +833,8 @@ export const certifications = [
   { img: "./assets/certifications/ezgif-2-003f3190c2.png", name : "Digital Forensics Essentials" },
   { img: "./assets/certifications/ezgif-2-831f8fb746.png", name : "Ethical Hacking Essentials" },
   { img: "./assets/certifications/ezgif-2-f45f608060.png", name : "Network Defense Essentials" },
+  { img: "./assets/certifications/Fortinet NSE 1 Certified in Cybersecurity.png", name : "Fortinet NSE 1 Certified in Cybersecurity" },
+  { img: "./assets/certifications/Fortinet Cybersecurity and Cloud Fundamentals 1.0.png", name : "Fortinet Cybersecurity and Cloud Fundamentals 1.0" },
   { img: "./assets/certifications/cyberops-associate.png", name : "Cisco CyberOps Associate" },
   { img: "./assets/certifications/I2CS_1.png", name : "Introduction to Cybersecurity" },
   { img: "./assets/certifications/networking-basics.png", name : "Networking Basics" },

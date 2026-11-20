@@ -30,35 +30,36 @@ const Certifications = () => {
             <span className="text-neon tracking-widest">TOTAL: [{certifications.length}]</span>
           </div>
 
-          {/* Certifications Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 relative z-10">
+          {/* Certifications Grid (5 Columns on Large Screens) */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5 sm:gap-6 relative z-10">
             {certifications.map((cert, index) => (
               <div
                 key={index}
-                className="group relative p-4 rounded-xl bg-indigo/30 border border-white/5 hover:border-violet/50 transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center justify-between"
+                className="group relative p-4 sm:p-5 rounded-2xl bg-indigo/30 border border-white/5 hover:border-violet/50 transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center justify-start"
               >
                 {/* Internal Card Hover Flash */}
-                <div className="absolute inset-0 bg-violet/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl pointer-events-none" />
+                <div className="absolute inset-0 bg-violet/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl pointer-events-none" />
 
-                {/* Logo Frame */}
-                <div className="relative z-10 w-16 h-16 sm:w-20 sm:h-20 flex justify-center items-center bg-primary/60 rounded-lg p-2.5 border border-white/5 group-hover:border-violet/30 transition-colors my-2">
+                {/* Large Logo Frame Sized for 5-Column Grid */}
+                <div className="relative z-10 w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 flex justify-center items-center bg-primary/60 rounded-xl p-3 border border-white/5 group-hover:border-violet/30 transition-colors mt-1 mb-3.5 shrink-0">
                   <img
                     src={cert.img}
                     alt={cert.name}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-contain filter brightness-90 group-hover:brightness-100 transition-all"
                   />
                 </div>
             
-                {/* Title */}
-                <div className="relative z-10 mt-3 min-h-[2.5rem] flex items-center justify-center">
-                  <p className="text-[11px] sm:text-xs font-mono text-neutral-300 group-hover:text-neon transition-colors leading-tight">
+                {/* Title Anchored to Top of Text Area with Trailing Space */}
+                <div className="relative z-10 w-full flex items-start justify-center pb-2">
+                  <p className="text-[11px] sm:text-xs font-mono text-neutral-300 group-hover:text-neon transition-colors leading-snug">
                     {cert.name}
                   </p>
                 </div>
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </section>
