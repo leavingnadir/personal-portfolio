@@ -423,7 +423,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "AquaSafari – Web-Based Boat Safari Trip Management System",
     description:
       "Designed and developed as a SLIIT Y2S1 SE x DDD module group project a full-stack Java web application to digitize boat safari operations in Sri Lanka, replacing manual, phone-based booking processes with a centralized, secure platform.",
@@ -467,7 +467,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 14,
     title: "DermaCheck — Skin Lesion Diagnosis Triage (Classical ML)",
     description:
       "DermaCheck is an skin lesion classification system developed to support early dermatology triage by analyzing dermatoscopic images and predicting lesion categories.",
@@ -492,6 +492,35 @@ export const myProjects = [
         id: 3,
         name: "Pycharm",
         path: "/assets/logos/pycharm.svg",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "VigilAI — NL Firewall & ACL Generator with Zero-Trust Auditing",
+    description:
+      "Built a full-stack NetSecOps web app using React, Tailwind CSS, Python, FastAPI, Pydantic, and the Google Gemini API that turns plain-English network rules into Cisco IOS ACL, Linux iptables, and Palo Alto CLI configurations. The backend uses structured JSON schemas and multi-model fallback routing to reliably generate rules while performing an automated zero-trust security audit that scores risk from 1 to 10",
+    subDescription: [
+      "Flags dangerous exposures like open SSH/RDP or 0.0.0.0/0 permits, and suggests safer alternatives. On the frontend, I built a clean console featuring quick-test presets, persistent audit history, and one-click `.txt` report exports.",
+    ],
+    href: "https://github.com/leavingnadir/vigil-ai.git",
+    logo: "",
+    image: "/assets/projects/VigilAI.PNG",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/Python.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   }
