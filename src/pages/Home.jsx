@@ -4,6 +4,7 @@ import StatsSection from "../components/StatsSection";
 import RolesSection from "../components/RolesSection";
 
 const GithubActivity = lazy(() => import("../components/GithubActivity"));
+const ZenodoActivity = lazy(() => import("../components/ZenodoActivity"));
 const Resume = lazy(() => import("../components/resume"));
 
 export default function Home() {
@@ -48,6 +49,7 @@ export default function Home() {
 
         <Suspense fallback={<div className="h-32" />}>
           <GithubActivity />
+          <ZenodoActivity />
           <Resume />
         </Suspense>
       </div>
